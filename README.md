@@ -7,3 +7,5 @@ Create a `psc-package.json`, either by running `psc-package init` or copying an 
 ```
 https://raw.githubusercontent.com/purerl/package-sets/erl-0.10.1/packages.json
 ```
+
+Example usage: [hello-world](https://github.com/purerl/hello-world).
