@@ -1,0 +1,192 @@
+{
+  "assert": {
+    "dependencies": [
+      "console",
+      "eff",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-assert.git",
+    "version": "2.0.0-erl"
+  },
+  "bifunctors": {
+    "dependencies": [
+      "control",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-bifunctors.git",
+    "version": "v2.0.0"
+  },
+  "console": {
+    "dependencies": [
+      "prelude",
+      "eff"
+    ],
+    "repo": "https://github.com/purerl/purescript-console.git",
+    "version": "2.0.0-erl"
+  },
+  "control": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-control.git",
+    "version": "v2.0.0"
+  },
+  "eff": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-eff.git",
+    "version": "2.0.0-erl.1"
+  },
+  "erl-lists": {
+    "dependencies": [
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-lists.git",
+    "version": "1.0.0"
+  },
+  "erl-tuples": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-tuples.git",
+    "version": "1.0.0"
+  },
+  "foldable-traversable": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-foldable-traversable.git",
+    "version": "2.0.0-erl"
+  },
+  "functions": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purerl-functions.git",
+    "version": "2.0.0-erl"
+  },
+  "integers": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-integers.git",
+    "version": "2.0.0-erl"
+  },
+  "invariant": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-invariant.git",
+    "version": "v2.0.0"
+  },
+  "math": {
+    "dependencies": [],
+    "repo": "https://github.com/purerl/purescript-math.git",
+    "version": "2.0.0-erl"
+  },
+  "maybe": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-maybe.git",
+    "version": "v2.0.1"
+  },
+  "monoid": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-monoid.git",
+    "version": "v2.0.0"
+  },
+  "newtype": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-newtype.git",
+    "version": "v1.0.0"
+  },
+  "partial": {
+    "dependencies": [],
+    "repo": "https://github.com/purerl/purescript-partial.git",
+    "version": "1.1.2-erl"
+  },
+  "prelude": {
+    "dependencies": [],
+    "repo": "https://github.com/purerl/purescript-prelude.git",
+    "version": "2.1.0-erl"
+  },
+  "tuples": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-tuples.git",
+    "version": "v2.0.0"
+  },
+  "unfoldable": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude",
+      "tuples"
+    ],
+    "repo": "https://github.com/purerl/purescript-unfoldable.git",
+    "version": "2.0.0-erl"
+  }
+}
