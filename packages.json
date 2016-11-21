@@ -92,7 +92,7 @@
     "dependencies": [
       "prelude"
     ],
-    "repo": "https://github.com/purescript/purerl-functions.git",
+    "repo": "https://github.com/purerl/purescript-functions.git",
     "version": "2.0.0-erl"
   },
   "integers": {
