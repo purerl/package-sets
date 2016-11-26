@@ -20,7 +20,7 @@ import           Data.Foldable (for_)
 import           Data.Map (Map, toList, fromList)
 import qualified Data.Map as M
 import           Data.Maybe (fromMaybe)
-import           Data.Text (Text)
+import           Data.Text (Text, unpack)
 import           Data.Text.Encoding (decodeUtf8')
 import           Data.Traversable (for)
 import           Filesystem.Path ((</>))
@@ -82,7 +82,7 @@ verifyPackageSet ps = do
   procs "pserlc" [ "--version" ] empty
 
   for_ (toList ps) $ \(name, PackageSpec{..}) -> do
-    let dirFor = fromMaybe (error "verifyPackageSet: no directory") . (`M.lookup` paths)
+    let dirFor name = fromMaybe (error $ "verifyPackageSet: no directory " <> unpack name) . (`M.lookup` paths) $ name
     echo ("Building package " <> name)
     let srcGlobs = map ((<> "/src/**/*.purs") . toTextUnsafe . dirFor) (name : dependencies)
     procs "pserlc" srcGlobs empty
