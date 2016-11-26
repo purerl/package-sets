@@ -1,4 +1,27 @@
 {
+  "arrays": {
+    "dependencies": [
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-arrays.git",
+    "version": "3.0.0-erl1"
+  },
   "assert": {
     "dependencies": [
       "console",
@@ -30,6 +53,21 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-control.git",
+    "version": "v2.0.0"
+  },
+  "distributive": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-distributive.git",
     "version": "v2.0.0"
   },
   "eff": {
@@ -75,6 +113,20 @@
     "repo": "https://github.com/purerl/purescript-erl-tuples.git",
     "version": "1.0.0"
   },
+  "either": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-either.git",
+    "version": "v2.0.0"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
@@ -94,6 +146,20 @@
     ],
     "repo": "https://github.com/purerl/purescript-functions.git",
     "version": "2.0.0-erl"
+  },
+  "identity": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-identity.git",
+    "version": "v2.0.0"
   },
   "integers": {
     "dependencies": [
@@ -115,6 +181,17 @@
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v2.0.0"
+  },
+  "lazy": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-lazy.git",
+    "version": "2.0.0-erl2"
   },
   "math": {
     "dependencies": [],
@@ -149,6 +226,20 @@
     "repo": "https://github.com/purescript/purescript-newtype.git",
     "version": "v1.0.0"
   },
+  "nonempty": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-nonempty.git",
+    "version": "v3.0.0"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-partial.git",
@@ -158,6 +249,51 @@
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-prelude.git",
     "version": "2.1.0-erl"
+  },
+  "tailrec": {
+    "dependencies": [
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-tailrec.git",
+    "version": "2.0.1-erl.1"
+  },
+  "transformers": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "distributive",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-transformers.git",
+    "version": "v2.0.1"
   },
   "tuples": {
     "dependencies": [
