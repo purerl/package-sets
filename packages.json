@@ -20,7 +20,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-arrays.git",
-    "version": "3.0.0-erl1"
+    "version": "3.0.0-erl2"
   },
   "assert": {
     "dependencies": [
@@ -248,7 +248,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-prelude.git",
-    "version": "2.1.0-erl"
+    "version": "2.1.0-erl.1"
   },
   "tailrec": {
     "dependencies": [
