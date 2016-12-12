@@ -77,6 +77,47 @@
     "repo": "https://github.com/purerl/purescript-eff.git",
     "version": "2.0.0-erl.1"
   },
+  "erl-binary": {
+    "dependencies": [
+      "control",
+      "invariant",
+      "newtype",
+      "monoid",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-binary.git",
+    "version": "v0.1.0"
+  },
+  "erl-cowboy": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "erl-binary",
+      "erl-lists",
+      "erl-tuples",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-cowboy.git",
+    "version": "v0.1.0"
+  },
   "erl-lists": {
     "dependencies": [
       "bifunctors",
