@@ -114,8 +114,39 @@
       "transformers",
       "tuples",
       "unfoldable"
+
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy.git",
+    "version": "v0.1.0"
+  },
+  "erl-jsone": {
+    "dependencies": [
+      "arrays",
+      "assert",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "erl-binary",
+      "erl-lists",
+      "erl-tuples",
+      "foldable-traversable",
+      "identity",
+      "integers",
+      "invariant",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-jsone.git",
     "version": "v0.1.0"
   },
   "erl-lists": {
