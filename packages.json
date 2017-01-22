@@ -97,7 +97,6 @@
       "distributive",
       "eff",
       "either",
-      "erl-binary",
       "erl-lists",
       "erl-tuples",
       "foldable-traversable",
@@ -114,10 +113,9 @@
       "transformers",
       "tuples",
       "unfoldable"
-
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "erl-jsone": {
     "dependencies": [
@@ -128,7 +126,6 @@
       "control",
       "eff",
       "either",
-      "erl-binary",
       "erl-lists",
       "erl-tuples",
       "foldable-traversable",
@@ -147,7 +144,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-erl-jsone.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "erl-lists": {
     "dependencies": [
@@ -320,7 +317,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-prelude.git",
-    "version": "2.1.0-erl.1"
+    "version": "2.1.0-erl.2"
   },
   "tailrec": {
     "dependencies": [
