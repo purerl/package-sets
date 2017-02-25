@@ -319,6 +319,19 @@
     "repo": "https://github.com/purerl/purescript-prelude.git",
     "version": "2.1.0-erl.2"
   },
+  "proxy": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript/purescript-proxy.git",
+    "version": "v1.0.0"
+  },
+  "symbols": {
+    "dependencies": [
+      "unsafe-coerce",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-symbols.git",
+    "version": "v2.0.0"
+  },
   "tailrec": {
     "dependencies": [
       "bifunctors",
@@ -378,6 +391,22 @@
     "repo": "https://github.com/purescript/purescript-tuples.git",
     "version": "v2.0.0"
   },
+  "type-equality": {
+    "dependencies": [],
+    "repo": "https://github.com/purescript/purescript-type-equality.git",
+    "version": "v1.0.0"
+  },
+  "typelevel-prelude": {
+    "dependencies": [
+      "prelude",
+      "proxy",
+      "symbols",
+      "type-equality",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
+    "version": "v1.0.0"
+  },
   "unfoldable": {
     "dependencies": [
       "bifunctors",
@@ -392,6 +421,11 @@
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-unfoldable.git",
+    "version": "2.0.0-erl"
+  },
+  "unsafe-coerce": {
+    "dependencies": [],
+    "repo": "https://github.com/purerl/purescript-unsafe-coerce.git",
     "version": "2.0.0-erl"
   }
 }
