@@ -75,7 +75,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-eff.git",
-    "version": "2.0.0-erl.1"
+    "version": "v2.0.0-erl1"
   },
   "erl-binary": {
     "dependencies": [
@@ -317,7 +317,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-prelude.git",
-    "version": "2.1.0-erl.2"
+    "version": "v2.1.0-erl2"
   },
   "proxy": {
     "dependencies": [],
@@ -349,7 +349,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-tailrec.git",
-    "version": "2.0.1-erl.1"
+    "version": "v2.0.1-erl1"
   },
   "transformers": {
     "dependencies": [
