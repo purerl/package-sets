@@ -216,6 +216,22 @@
     "repo": "https://github.com/purerl/purescript-functions.git",
     "version": "2.0.0-erl"
   },
+  "generics-rep": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude",
+      "symbols",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-generics-rep.git",
+    "version": "v4.1.0"
+  },
   "identity": {
     "dependencies": [
       "bifunctors",
@@ -317,12 +333,28 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-prelude.git",
-    "version": "v2.1.0-erl2"
+    "version": "v2.1.0-erl3"
   },
   "proxy": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v1.0.0"
+  },
+  "strings": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "either",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-strings.git",
+    "version": "v2.1.0-erl"
   },
   "symbols": {
     "dependencies": [
