@@ -40,6 +40,35 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v2.0.0"
   },
+  "catenable-lists": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "lists",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-catenable-lists.git",
+    "version": "v3.0.1"
+  },
   "console": {
     "dependencies": [
       "prelude",
@@ -216,6 +245,32 @@
     "repo": "https://github.com/purerl/purescript-functions.git",
     "version": "2.0.0-erl"
   },
+  "generics": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-generics.git",
+    "version": "v3.3.0-erl1"
+  },
   "generics-rep": {
     "dependencies": [
       "bifunctors",
@@ -278,6 +333,34 @@
     "repo": "https://github.com/purerl/purescript-lazy.git",
     "version": "2.0.0-erl2"
   },
+  "lists": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript/purescript-lists.git",
+    "version": "v3.4.0"
+  },
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-math.git",
@@ -333,7 +416,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-prelude.git",
-    "version": "v2.1.0-erl3"
+    "version": "v2.1.0-erl5"
   },
   "proxy": {
     "dependencies": [],
