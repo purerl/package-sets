@@ -225,6 +225,22 @@
     "repo": "https://github.com/purescript/purescript-either.git",
     "version": "v2.0.0"
   },
+  "exceptions": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-exceptions.git",
+    "version": "v2.0.0-erl1"
+  },
   "foldable-traversable": {
     "dependencies": [
       "bifunctors",
@@ -364,7 +380,7 @@
   "math": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-math.git",
-    "version": "2.0.0-erl"
+    "version": "v2.0.0-erl2"
   },
   "maybe": {
     "dependencies": [
@@ -422,6 +438,57 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-proxy.git",
     "version": "v1.0.0"
+  },
+  "purescript-quickcheck": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "integers",
+      "invariant",
+      "lazy",
+      "lists",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "random",
+      "strings",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-quickcheck.git",
+    "version": "v3.1.1-erl"
+  },
+  "random": {
+    "dependencies": [
+      "control",
+      "eff",
+      "integers",
+      "invariant",
+      "math",
+      "maybe",
+      "monoid",
+      "newtype",
+      "partial",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-random.git",
+    "version": "v2.0.0-erl3"
   },
   "strings": {
     "dependencies": [
