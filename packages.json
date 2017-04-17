@@ -1,4 +1,34 @@
 {
+  "aff": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purerl/purescript-aff.git",
+    "version": "v2.0.3-erl1"
+  },
   "arrays": {
     "dependencies": [
       "bifunctors",
@@ -144,7 +174,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "erl-jsone": {
     "dependencies": [
@@ -303,6 +333,39 @@
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
     "version": "v4.1.0"
   },
+  "globals": {
+    "dependencies": [
+    ],
+    "repo": "https://github.com/purerl/purescript-globals.git",
+    "version": "v3.0.0-erl1"
+  },
+  "http-methods": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
+    "version": "v2.0.0"
+  },
   "identity": {
     "dependencies": [
       "bifunctors",
@@ -316,6 +379,37 @@
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
     "version": "v2.0.0"
+  },
+  "indexed-monad": {
+    "dependencies": [
+      "aff",
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "distributive",
+      "eff",
+      "either",
+      "exceptions",
+      "foldable-traversable",
+      "functions",
+      "identity",
+      "invariant",
+      "lazy",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unfoldable",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/garyb/purescript-indexed-monad.git",
+    "version": "v0.1.1"
   },
   "integers": {
     "dependencies": [
@@ -422,6 +516,33 @@
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "v2.0.1"
+  },
+   "media-types": {
+    "dependencies": [
+      "arrays",
+      "bifunctors",
+      "console",
+      "control",
+      "eff",
+      "either",
+      "foldable-traversable",
+      "generics",
+      "identity",
+      "invariant",
+      "maybe",
+      "monoid",
+      "newtype",
+      "nonempty",
+      "partial",
+      "prelude",
+      "proxy",
+      "strings",
+      "tailrec",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
+    "version": "v2.0.0"
   },
   "monoid": {
     "dependencies": [
