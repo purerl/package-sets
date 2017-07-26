@@ -596,7 +596,7 @@
       "uri"
     ],
     "repo": "https://github.com/owickstrom/purescript-hypertrout/",
-    "version": "v0.8.1"
+    "version": "v0.9.0"
   },
   "identity": {
     "dependencies": [
@@ -1097,7 +1097,7 @@
       "uri"
     ],
     "repo": "https://github.com/purerl/purescript-trout",
-    "version": "v0.8.0-erl1"
+    "version": "v0.9.1-erl1"
   },
   "tuples": {
     "dependencies": [
