@@ -79,10 +79,10 @@ verifyPackageSet ps = do
       return (name, pkgDir)))
 
   -- Print out the psc version
-  procs "pserlc" [ "--version" ] empty
+  procs "purs" [ "--version" ] empty
 
   for_ (toList ps) $ \(name, PackageSpec{..}) -> do
     let dirFor name = fromMaybe (error $ "verifyPackageSet: no directory " <> unpack name) . (`M.lookup` paths) $ name
     echo ("Building package " <> name)
     let srcGlobs = map ((<> "/src/**/*.purs") . toTextUnsafe . dirFor) (name : dependencies)
-    procs "pserlc" srcGlobs empty
+    procs "purs" ("compile" : srcGlobs) empty
