@@ -595,7 +595,7 @@
       "unsafe-coerce",
       "uri"
     ],
-    "repo": "https://github.com/owickstrom/purescript-hypertrout/",
+    "repo": "https://github.com/owickstrom/purescript-hypertrout.git",
     "version": "v0.9.0"
   },
   "identity": {
@@ -1096,7 +1096,7 @@
       "unsafe-coerce",
       "uri"
     ],
-    "repo": "https://github.com/purerl/purescript-trout",
+    "repo": "https://github.com/purerl/purescript-trout.git",
     "version": "v0.9.1-erl1"
   },
   "tuples": {
@@ -1189,7 +1189,7 @@
       "unfoldable",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/purerl/purescript-uri",
+    "repo": "https://github.com/purerl/purescript-uri.git",
     "version": "v3.0.0-erl1"
   }
 }
