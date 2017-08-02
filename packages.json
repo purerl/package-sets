@@ -28,7 +28,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-aff.git",
-    "version": "v3.1.0-erl1"
+    "version": "v3.1.0-erl2"
   },
   "arrays": {
     "dependencies": [
@@ -181,7 +181,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-datetime.git",
-    "version": "v3.3.0-erl1"
+    "version": "v3.3.0-erl2"
   },
   "distributive": {
     "dependencies": [
@@ -673,7 +673,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-lazy.git",
-    "version": "v3.0.0-erl1"
+    "version": "v3.0.0-erl2"
   },
   "lists": {
     "dependencies": [
