@@ -858,7 +858,7 @@
         "prelude",
         "eff"
     ],
-    "repo": "https://github.com/purerl/package-sets.git",
+    "repo": "https://github.com/purerl/purescript-erl-process.git",
     "version": "v1.0.0"
   },
   "profunctor": {
