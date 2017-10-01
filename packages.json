@@ -203,7 +203,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-eff.git",
-    "version": "v3.1.0-erl1"
+    "version": "v3.1.0-erl2"
   },
   "erl-binary": {
     "dependencies": [
@@ -358,7 +358,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-exceptions.git",
-    "version": "v3.0.0-erl1"
+    "version": "v3.0.0-erl2"
   },
   "exists": {
     "dependencies": [
@@ -385,7 +385,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-functions.git",
-    "version": "v3.0.0-erl1"
+    "version": "v3.0.0-erl2"
   },
   "gen": {
     "dependencies": [
