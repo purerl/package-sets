@@ -852,7 +852,7 @@
     "repo": "https://github.com/purerl/purescript-prelude.git",
     "version": "v3.1.0-erl1"
   },
-  "process": {
+  "erl-process": {
     "dependencies": [
         "console",
         "prelude",
