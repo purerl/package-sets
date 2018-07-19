@@ -11,3 +11,8 @@ https://github.com/purerl/package-sets.git
 and appropriate set per tags, eg `erl-0.10.1`
 
 Example usage: [hello-world](https://github.com/purerl/hello-world).
+
+# Set maintenance / credits
+
+This package set is generated from Dhall ala [justinwoo/spacchetti](https://github.com/justinwoo/spacchetti). See that
+repository for some documentation that might apply to generating changes / sets based on this package set.
