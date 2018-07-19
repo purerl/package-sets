@@ -148,6 +148,47 @@
     "repo": "https://github.com/purerl/purescript-enums.git",
     "version": "v4.0.0-erl1"
   },
+  "erl-atom": {
+    "dependencies": [
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-atom.git",
+    "version": "v1.0.0"
+  },
+  "erl-binary": {
+    "dependencies": [
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-binary.git",
+    "version": "v0.3.0"
+  },
+  "erl-lists": {
+    "dependencies": [
+      "prelude",
+      "foldable-traversable",
+      "unfoldable",
+      "tuples"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-lists.git",
+    "version": "v3.0.0"
+  },
+  "erl-process": {
+    "dependencies": [
+      "prelude",
+      "effect"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-process.git",
+    "version": "v2.0.0"
+  },
+  "erl-tuples": {
+    "dependencies": [
+      "unfoldable",
+      "tuples"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-tuples.git",
+    "version": "v3.0.0"
+  },
   "exists": {
     "dependencies": [
       "unsafe-coerce"
