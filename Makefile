@@ -5,7 +5,7 @@ format:
 	@echo formatted dhall files
 
 generate:
-	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
+	@dhall-to-json --pretty <<< "./src/packages.dhall" | jq '.' -S  > packages.json
 	@echo generated to packages.json
 
 validate:

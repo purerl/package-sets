@@ -121,11 +121,6 @@ in  { arrays =
         ]
         "https://github.com/purescript/purescript-enums.git"
         "v4.0.0"
-    , exceptions =
-        mkPackage
-        [ "effect", "either", "maybe", "prelude" ]
-        "https://github.com/purescript/purescript-exceptions.git"
-        "v4.0.0"
     , exists =
         mkPackage
         [ "unsafe-coerce" ]
@@ -136,36 +131,6 @@ in  { arrays =
         [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
         "https://github.com/purescript/purescript-foldable-traversable.git"
         "v4.0.0"
-    , foreign =
-        mkPackage
-        [ "either"
-        , "functions"
-        , "identity"
-        , "integers"
-        , "lists"
-        , "maybe"
-        , "prelude"
-        , "strings"
-        , "transformers"
-        ]
-        "https://github.com/purescript/purescript-foreign.git"
-        "v5.0.0"
-    , foreign-object =
-        mkPackage
-        [ "arrays"
-        , "foldable-traversable"
-        , "functions"
-        , "gen"
-        , "lists"
-        , "maybe"
-        , "prelude"
-        , "st"
-        , "tailrec"
-        , "tuples"
-        , "unfoldable"
-        ]
-        "https://github.com/purescript/purescript-foreign-object.git"
-        "v1.0.0"
     , free =
         mkPackage
         [ "catenable-lists"
@@ -376,49 +341,11 @@ in  { arrays =
         [ "console", "effect", "prelude" ]
         "https://github.com/purescript/purescript-psci-support.git"
         "v4.0.0"
-    , quickcheck =
-        mkPackage
-        [ "arrays"
-        , "console"
-        , "control"
-        , "effect"
-        , "either"
-        , "enums"
-        , "exceptions"
-        , "foldable-traversable"
-        , "gen"
-        , "generics-rep"
-        , "identity"
-        , "integers"
-        , "lazy"
-        , "lcg"
-        , "lists"
-        , "math"
-        , "maybe"
-        , "newtype"
-        , "nonempty"
-        , "partial"
-        , "prelude"
-        , "record"
-        , "st"
-        , "strings"
-        , "tailrec"
-        , "transformers"
-        , "tuples"
-        , "unfoldable"
-        ]
-        "https://github.com/purescript/purescript-quickcheck.git"
-        "v5.0.0"
     , random =
         mkPackage
         [ "effect", "integers", "math" ]
         "https://github.com/purescript/purescript-random.git"
         "v4.0.0"
-    , record =
-        mkPackage
-        [ "functions", "prelude", "st", "typelevel-prelude", "unsafe-coerce" ]
-        "https://github.com/purescript/purescript-record.git"
-        "v1.0.0"
     , refs =
         mkPackage
         [ "effect", "prelude" ]
@@ -429,11 +356,6 @@ in  { arrays =
         [ "foldable-traversable", "lists", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-semirings.git"
         "v5.0.0"
-    , st =
-        mkPackage
-        [ "partial", "prelude", "tailrec" ]
-        "https://github.com/purescript/purescript-st.git"
-        "v4.0.0"
     , strings =
         mkPackage
         [ "arrays"

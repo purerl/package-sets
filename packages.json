@@ -167,12 +167,48 @@
     "repo": "https://github.com/purerl/purescript-foldable-traversable.git",
     "version": "v4.0.0-erl1"
   },
+  "free": {
+    "dependencies": [
+      "catenable-lists",
+      "control",
+      "distributive",
+      "either",
+      "exists",
+      "foldable-traversable",
+      "invariant",
+      "lazy",
+      "maybe",
+      "prelude",
+      "tailrec",
+      "transformers",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-free.git",
+    "version": "v5.1.0"
+  },
   "functions": {
     "dependencies": [
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-functions.git",
     "version": "v4.0.0-erl1"
+  },
+  "functors": {
+    "dependencies": [
+      "bifunctors",
+      "const",
+      "control",
+      "either",
+      "foldable-traversable",
+      "maybe",
+      "newtype",
+      "prelude",
+      "tuples",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/purescript/purescript-functors.git",
+    "version": "v3.0.0"
   },
   "gen": {
     "dependencies": [
@@ -188,7 +224,18 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-gen.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
+  },
+  "generics-rep": {
+    "dependencies": [
+      "enums",
+      "foldable-traversable",
+      "maybe",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-generics-rep.git",
+    "version": "v6.0.0"
   },
   "globals": {
     "dependencies": [],
@@ -208,6 +255,7 @@
   },
   "integers": {
     "dependencies": [
+      "globals",
       "math",
       "maybe",
       "prelude"
@@ -231,6 +279,19 @@
     ],
     "repo": "https://github.com/purerl/purescript-lazy.git",
     "version": "v4.0.0-erl1"
+  },
+  "lcg": {
+    "dependencies": [
+      "effect",
+      "integers",
+      "math",
+      "maybe",
+      "partial",
+      "prelude",
+      "random"
+    ],
+    "repo": "https://github.com/purescript/purescript-lcg.git",
+    "version": "v2.0.0"
   },
   "lists": {
     "dependencies": [
@@ -309,6 +370,22 @@
     "repo": "https://github.com/purescript/purescript-orders.git",
     "version": "v4.0.0"
   },
+  "parallel": {
+    "dependencies": [
+      "control",
+      "effect",
+      "either",
+      "foldable-traversable",
+      "functors",
+      "maybe",
+      "newtype",
+      "prelude",
+      "refs",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript/purescript-parallel.git",
+    "version": "v4.0.0"
+  },
   "partial": {
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-partial.git",
@@ -354,7 +431,7 @@
     "dependencies": [
       "effect",
       "integers",
-      "prelude"
+      "math"
     ],
     "repo": "https://github.com/purerl/purescript-random.git",
     "version": "v4.0.0-erl1"
@@ -366,6 +443,16 @@
     ],
     "repo": "https://github.com/purerl/purescript-refs.git",
     "version": "v4.1.0-erl1"
+  },
+  "semirings": {
+    "dependencies": [
+      "foldable-traversable",
+      "lists",
+      "newtype",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-semirings.git",
+    "version": "v5.0.0"
   },
   "strings": {
     "dependencies": [
@@ -426,14 +513,16 @@
     "dependencies": [
       "bifunctors",
       "control",
+      "distributive",
       "foldable-traversable",
       "invariant",
       "maybe",
       "newtype",
-      "prelude"
+      "prelude",
+      "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "type-equality": {
     "dependencies": [],
@@ -464,5 +553,16 @@
     "dependencies": [],
     "repo": "https://github.com/purerl/purescript-unsafe-coerce.git",
     "version": "v4.0.0-erl1"
+  },
+  "validation": {
+    "dependencies": [
+      "bifunctors",
+      "control",
+      "either",
+      "foldable-traversable",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript/purescript-validation.git",
+    "version": "v4.0.0"
   }
 }
