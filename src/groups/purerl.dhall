@@ -25,4 +25,9 @@ in  { erl-lists =
         [ "prelude", "effect" ]
         "https://github.com/purerl/purescript-erl-process.git"
         "v2.0.0"
+    , erl-maps =
+        mkPackage
+        [ "erl-lists", "functions", "prelude", "tuples", "unfoldable" ]
+        "https://github.com/purerl/purescript-erl-maps.git"
+        "v0.1.0"
     }

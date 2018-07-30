@@ -163,6 +163,30 @@
     "repo": "https://github.com/purerl/purescript-erl-binary.git",
     "version": "v0.3.0"
   },
+  "erl-cowboy": {
+    "dependencies": [
+      "erl-atom",
+      "erl-lists",
+      "erl-tuples",
+      "maybe",
+      "prelude",
+      "transformers"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-cowboy",
+    "version": "v0.5.0"
+  },
+  "erl-jsone": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "assert",
+      "either",
+      "erl-lists",
+      "erl-tuples"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-jsone",
+    "version": "v0.4.0"
+  },
   "erl-lists": {
     "dependencies": [
       "prelude",
@@ -172,6 +196,17 @@
     ],
     "repo": "https://github.com/purerl/purescript-erl-lists.git",
     "version": "v3.0.0"
+  },
+  "erl-maps": {
+    "dependencies": [
+      "erl-lists",
+      "functions",
+      "prelude",
+      "tuples",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-maps.git",
+    "version": "v0.1.0"
   },
   "erl-process": {
     "dependencies": [
