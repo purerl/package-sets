@@ -4,7 +4,7 @@ in  { erl-lists =
         mkPackage
         [ "prelude", "foldable-traversable", "unfoldable", "tuples" ]
         "https://github.com/purerl/purescript-erl-lists.git"
-        "v3.0.0"
+        "v3.0.1"
     , erl-tuples =
         mkPackage
         [ "unfoldable", "tuples" ]

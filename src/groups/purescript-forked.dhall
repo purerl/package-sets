@@ -56,7 +56,7 @@ in  { arrays =
         mkPackage
         [ "prelude" ]
         "https://github.com/purerl/purescript-effect.git"
-        "v2.0.0-erl1"
+        "v2.0.0-erl2"
     , enums =
         mkPackage
         [ "control"
@@ -127,7 +127,7 @@ in  { arrays =
         mkPackage
         ([] : List Text)
         "https://github.com/purerl/purescript-prelude.git"
-        "v4.0.1-erl1"
+        "v4.1.0-erl2"
     , random =
         mkPackage
         [ "effect", "integers", "math" ]
