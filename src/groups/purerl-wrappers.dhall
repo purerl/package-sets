@@ -4,6 +4,7 @@ in  { erl-cowboy =
         mkPackage
         [ "erl-atom"
         , "erl-lists"
+        , "erl-maps"
         , "erl-tuples"
         , "maybe"
         , "prelude"

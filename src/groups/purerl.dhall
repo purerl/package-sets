@@ -14,7 +14,7 @@ in  { erl-lists =
         mkPackage
         [ "prelude", "unsafe-coerce" ]
         "https://github.com/purerl/purescript-erl-atom.git"
-        "v1.0.0"
+        "v1.1.0"
     , erl-binary =
         mkPackage
         [ "prelude" ]
