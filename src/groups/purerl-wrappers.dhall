@@ -6,12 +6,13 @@ in  { erl-cowboy =
         , "erl-lists"
         , "erl-maps"
         , "erl-tuples"
+        , "erl-binary"
         , "maybe"
         , "prelude"
         , "transformers"
         ]
         "https://github.com/purerl/purescript-erl-cowboy"
-        "v0.5.0"
+        "v0.6.0"
     , erl-jsone =
         mkPackage
         [ "arrays", "integers", "assert", "either", "erl-lists", "erl-tuples" ]

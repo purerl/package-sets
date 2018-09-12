@@ -176,12 +176,13 @@
       "erl-lists",
       "erl-maps",
       "erl-tuples",
+      "erl-binary",
       "maybe",
       "prelude",
       "transformers"
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy",
-    "version": "v0.5.0"
+    "version": "v0.6.0"
   },
   "erl-jsone": {
     "dependencies": [
