@@ -165,10 +165,12 @@
   },
   "erl-binary": {
     "dependencies": [
-      "prelude"
+      "prelude",
+      "maybe",
+      "erl-lists"
     ],
     "repo": "https://github.com/purerl/purescript-erl-binary.git",
-    "version": "v0.3.0"
+    "version": "v0.4.0"
   },
   "erl-cowboy": {
     "dependencies": [

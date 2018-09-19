@@ -17,9 +17,9 @@ in  { erl-lists =
         "v1.1.0"
     , erl-binary =
         mkPackage
-        [ "prelude" ]
+        [ "prelude", "maybe", "erl-lists" ]
         "https://github.com/purerl/purescript-erl-binary.git"
-        "v0.3.0"
+        "v0.4.0"
     , erl-process =
         mkPackage
         [ "prelude", "effect" ]
