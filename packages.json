@@ -231,7 +231,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-erl-tuples.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "exists": {
     "dependencies": [
@@ -559,7 +559,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-strings.git",
-    "version": "v4.0.0-erl1"
+    "version": "v4.0.0-erl2"
   },
   "tailrec": {
     "dependencies": [
