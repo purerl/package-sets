@@ -152,6 +152,11 @@ in  { arrays =
         [ "effect", "integers", "math" ]
         "https://github.com/purerl/purescript-random.git"
         "v4.0.0-erl1"
+    , record =
+        mkPackage
+        [ "functions", "typelevel-prelude", "unsafe-coerce" ]
+        "https://github.com/purerl/purescript-record.git"
+        "v1.0.0-erl1"
     , refs =
         mkPackage
         [ "effect", "prelude" ]
