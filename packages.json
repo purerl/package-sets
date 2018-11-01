@@ -106,18 +106,10 @@
   },
   "debug": {
     "dependencies": [
-      "enums",
-      "lists",
-      "maybe",
-      "partial",
-      "prelude",
-      "record",
-      "tuples",
-      "typelevel-prelude",
-      "unsafe-coerce"
+      "prelude"
     ],
-    "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v5.1.0"
+    "repo": "https://github.com/purerl/purescript-debug.git",
+    "version": "v4.0.0-erl1"
   },
   "distributive": {
     "dependencies": [
@@ -706,5 +698,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
     "version": "v4.0.0"
+  },
+  "variant": {
+    "dependencies": [
+      "enums",
+      "lists",
+      "maybe",
+      "partial",
+      "prelude",
+      "record",
+      "tuples",
+      "typelevel-prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-variant.git",
+    "version": "v5.1.0"
   }
 }

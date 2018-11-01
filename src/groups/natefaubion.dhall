@@ -1,6 +1,6 @@
     let mkPackage = ./../mkPackage.dhall
 
-in  { debug =
+in  { variant =
         mkPackage
         [ "enums"
         , "lists"
