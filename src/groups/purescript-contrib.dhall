@@ -4,5 +4,5 @@ in  { nullable =
         mkPackage
         [ "maybe", "functions" ]
         "https://github.com/purerl/purescript-nullable.git"
-        "v4.1.0-erl1"
+        "v4.1.0-erl2"
     }
