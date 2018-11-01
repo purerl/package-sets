@@ -233,6 +233,15 @@
     "repo": "https://github.com/purerl/purescript-erl-tuples.git",
     "version": "v3.1.0"
   },
+  "exceptions": {
+    "dependencies": [
+      "maybe",
+      "either",
+      "effect"
+    ],
+    "repo": "https://github.com/purerl/purescript-exceptions.git",
+    "version": "v4.0.0-erl1"
+  },
   "exists": {
     "dependencies": [
       "unsafe-coerce"
@@ -251,6 +260,21 @@
     ],
     "repo": "https://github.com/purerl/purescript-foldable-traversable.git",
     "version": "v4.0.0-erl1"
+  },
+  "foreign": {
+    "dependencies": [
+      "either",
+      "functions",
+      "identity",
+      "integers",
+      "lists",
+      "maybe",
+      "prelude",
+      "strings",
+      "transformers"
+    ],
+    "repo": "https://github.com/purerl/purescript-foreign.git",
+    "version": "v5.0.0-erl1"
   },
   "free": {
     "dependencies": [

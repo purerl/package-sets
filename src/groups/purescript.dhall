@@ -131,6 +131,20 @@ in  { arrays =
         [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
         "https://github.com/purescript/purescript-foldable-traversable.git"
         "v4.0.0"
+    , foreign =
+        mkPackage
+        [ "either"
+        , "functions"
+        , "identity"
+        , "integers"
+        , "lists"
+        , "maybe"
+        , "prelude"
+        , "strings"
+        , "transformers"
+        ]
+        "https://github.com/purescript/purescript-foreign.git"
+        "v5.0.0"
     , free =
         mkPackage
         [ "catenable-lists"

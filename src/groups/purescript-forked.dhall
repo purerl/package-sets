@@ -72,11 +72,30 @@ in  { arrays =
         ]
         "https://github.com/purerl/purescript-enums.git"
         "v4.0.0-erl1"
+    , exceptions =
+        mkPackage
+        [ "maybe", "either", "effect" ]
+        "https://github.com/purerl/purescript-exceptions.git"
+        "v4.0.0-erl1"
     , foldable-traversable =
         mkPackage
         [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
         "https://github.com/purerl/purescript-foldable-traversable.git"
         "v4.0.0-erl1"
+    , foreign =
+        mkPackage
+        [ "either"
+        , "functions"
+        , "identity"
+        , "integers"
+        , "lists"
+        , "maybe"
+        , "prelude"
+        , "strings"
+        , "transformers"
+        ]
+        "https://github.com/purerl/purescript-foreign.git"
+        "v5.0.0-erl1"
     , functions =
         mkPackage
         [ "prelude" ]
