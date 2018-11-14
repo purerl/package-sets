@@ -95,7 +95,7 @@ in  { arrays =
         , "transformers"
         ]
         "https://github.com/purerl/purescript-foreign.git"
-        "v5.0.0-erl1"
+        "v5.0.0-erl2"
     , functions =
         mkPackage
         [ "prelude" ]
