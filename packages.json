@@ -203,10 +203,11 @@
       "prelude",
       "foldable-traversable",
       "unfoldable",
+      "filterable",
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-erl-lists.git",
-    "version": "v3.0.1"
+    "version": "v3.1.0"
   },
   "erl-maps": {
     "dependencies": [

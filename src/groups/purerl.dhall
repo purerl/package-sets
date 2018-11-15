@@ -2,9 +2,14 @@
 
 in  { erl-lists =
         mkPackage
-        [ "prelude", "foldable-traversable", "unfoldable", "tuples" ]
+        [ "prelude"
+        , "foldable-traversable"
+        , "unfoldable"
+        , "filterable"
+        , "tuples"
+        ]
         "https://github.com/purerl/purescript-erl-lists.git"
-        "v3.0.1"
+        "v3.1.0"
     , erl-tuples =
         mkPackage
         [ "unfoldable", "tuples" ]
