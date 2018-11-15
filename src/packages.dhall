@@ -8,4 +8,5 @@
 // ./groups/ethul.dhall
 // ./groups/garyb.dhall
 // ./groups/natefaubion.dhall
+// ./groups/LiamGoodacre.dhall
 
