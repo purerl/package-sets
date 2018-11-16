@@ -11,6 +11,6 @@ in  { simple-json =
         , "typelevel-prelude"
         , "variant"
         ]
-        "https://github.com/justinwoo/purescript-simple-json.git"
+        "https://github.com/purerl/purescript-simple-json.git"
         "v4.3.0-erl1"
     }

@@ -606,7 +606,7 @@
       "typelevel-prelude",
       "variant"
     ],
-    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
+    "repo": "https://github.com/purerl/purescript-simple-json.git",
     "version": "v4.3.0-erl1"
   },
   "strings": {
