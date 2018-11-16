@@ -184,7 +184,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy",
-    "version": "v0.6.0"
+    "version": "v0.6.1"
   },
   "erl-jsone": {
     "dependencies": [
@@ -594,6 +594,20 @@
     ],
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v5.0.0"
+  },
+  "simple-json": {
+    "dependencies": [
+      "exceptions",
+      "foreign",
+      "globals",
+      "nullable",
+      "prelude",
+      "record",
+      "typelevel-prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json.git",
+    "version": "v4.3.0-erl1"
   },
   "strings": {
     "dependencies": [

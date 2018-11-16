@@ -12,7 +12,7 @@ in  { erl-cowboy =
         , "transformers"
         ]
         "https://github.com/purerl/purescript-erl-cowboy"
-        "v0.6.0"
+        "v0.6.1"
     , erl-jsone =
         mkPackage
         [ "arrays", "integers", "assert", "either", "erl-lists", "erl-tuples" ]
