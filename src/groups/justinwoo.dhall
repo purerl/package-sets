@@ -10,6 +10,7 @@ in  { simple-json =
         , "record"
         , "typelevel-prelude"
         , "variant"
+        , "erl-lists"
         ]
         "https://github.com/purerl/purescript-simple-json.git"
         "v4.3.0-erl1"

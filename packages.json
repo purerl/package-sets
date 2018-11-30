@@ -604,7 +604,8 @@
       "prelude",
       "record",
       "typelevel-prelude",
-      "variant"
+      "variant",
+      "erl-lists"
     ],
     "repo": "https://github.com/purerl/purescript-simple-json.git",
     "version": "v4.3.0-erl1"
