@@ -161,7 +161,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-erl-atom.git",
-    "version": "v1.1.0"
+    "version": "v1.1.1"
   },
   "erl-binary": {
     "dependencies": [
@@ -218,6 +218,15 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-erl-maps.git",
+    "version": "v0.1.0"
+  },
+  "erl-modules": {
+    "dependencies": [
+      "erl-atom",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-modules.git",
     "version": "v0.1.0"
   },
   "erl-process": {
