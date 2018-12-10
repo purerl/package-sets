@@ -7,6 +7,8 @@ in  { erl-cowboy =
         , "erl-maps"
         , "erl-tuples"
         , "erl-binary"
+        , "erl-modules"
+        , "foreign"
         , "maybe"
         , "prelude"
         , "transformers"
