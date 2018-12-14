@@ -186,7 +186,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy",
-    "version": "v0.7.0"
+    "version": "v0.7.1"
   },
   "erl-jsone": {
     "dependencies": [
