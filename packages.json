@@ -63,7 +63,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-const.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "contravariant": {
     "dependencies": [
@@ -137,7 +137,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "enums": {
     "dependencies": [
@@ -343,7 +343,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v3.0.0"
+    "version": "v3.1.0"
   },
   "gen": {
     "dependencies": [
@@ -370,7 +370,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "globals": {
     "dependencies": [],
@@ -386,7 +386,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "integers": {
     "dependencies": [
@@ -403,7 +403,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "lazy": {
     "dependencies": [
@@ -689,7 +689,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "type-equality": {
     "dependencies": [],
@@ -753,6 +753,6 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v5.1.0"
+    "version": "v5.2.0"
   }
 }

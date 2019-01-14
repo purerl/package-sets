@@ -53,7 +53,7 @@ in  { arrays =
         , "prelude"
         ]
         "https://github.com/purescript/purescript-const.git"
-        "v4.0.0"
+        "v4.1.0"
     , contravariant =
         mkPackage
         [ "either", "newtype", "prelude", "tuples" ]
@@ -105,7 +105,7 @@ in  { arrays =
         , "prelude"
         ]
         "https://github.com/purescript/purescript-either.git"
-        "v4.0.0"
+        "v4.1.0"
     , enums =
         mkPackage
         [ "control"
@@ -183,7 +183,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-functors.git"
-        "v3.0.0"
+        "v3.1.0"
     , gen =
         mkPackage
         [ "either"
@@ -203,7 +203,7 @@ in  { arrays =
         mkPackage
         [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-generics-rep.git"
-        "v6.0.0"
+        "v6.1.0"
     , globals =
         mkPackage
         ([] : List Text)
@@ -213,7 +213,7 @@ in  { arrays =
         mkPackage
         [ "control", "foldable-traversable", "invariant", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-identity.git"
-        "v4.0.0"
+        "v4.1.0"
     , integers =
         mkPackage
         [ "globals", "math", "maybe", "prelude" ]
@@ -223,7 +223,7 @@ in  { arrays =
         mkPackage
         [ "prelude" ]
         "https://github.com/purescript/purescript-invariant.git"
-        "v4.0.0"
+        "v4.1.0"
     , lazy =
         mkPackage
         [ "control", "foldable-traversable", "invariant", "prelude" ]
@@ -435,7 +435,7 @@ in  { arrays =
         , "type-equality"
         ]
         "https://github.com/purescript/purescript-tuples.git"
-        "v5.0.0"
+        "v5.1.0"
     , type-equality =
         mkPackage
         ([] : List Text)

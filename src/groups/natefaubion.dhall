@@ -13,5 +13,5 @@ in  { variant =
         , "unsafe-coerce"
         ]
         "https://github.com/natefaubion/purescript-variant.git"
-        "v5.1.0"
+        "v5.2.0"
     }
