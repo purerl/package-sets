@@ -1,4 +1,4 @@
-    let mkPackage = ./../mkPackage.dhall
+let mkPackage = ./../mkPackage.dhall
 
 in  { arrays =
         mkPackage
@@ -257,7 +257,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-lists.git"
-        "v5.0.0"
+        "v5.3.0"
     , math =
         mkPackage
         ([] : List Text)
