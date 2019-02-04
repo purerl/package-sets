@@ -39,5 +39,10 @@ in  { erl-lists =
         mkPackage
         [ "erl-atom", "prelude", "strings" ]
         "https://github.com/purerl/purescript-erl-modules.git"
-        "v0.1.1"
+        "v0.1.2"
+    , erl-lager =
+        mkPackage
+        [ "erl-lists" ]
+        "https://github.com/purerl/purescript-erl-lager.git"
+        "v0.0.1"
     }
