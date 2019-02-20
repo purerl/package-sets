@@ -1,4 +1,22 @@
 {
+  "apigen": {
+    "dependencies": [
+      "assert",
+      "console",
+      "debug",
+      "effect",
+      "generics-rep",
+      "ordered-collections",
+      "prelude",
+      "proxy",
+      "psci-support",
+      "record",
+      "simple-json",
+      "strings"
+    ],
+    "repo": "git@github.com:id3as/apigen.git",
+    "version": "v0.0.2"
+  },
   "arrays": {
     "dependencies": [
       "bifunctors",
