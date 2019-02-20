@@ -136,7 +136,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purerl/purescript-ordered-collections.git"
-        "v1.0.0-erl1"
+        "v1.6.0-erl1"
     , partial =
         mkPackage
         ([] : List Text)

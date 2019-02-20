@@ -200,6 +200,13 @@
     "repo": "https://github.com/purerl/purescript-erl-jsone",
     "version": "v0.4.0"
   },
+  "erl-lager": {
+    "dependencies": [
+      "erl-lists"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-lager.git",
+    "version": "v0.0.1"
+  },
   "erl-lists": {
     "dependencies": [
       "prelude",
@@ -503,7 +510,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-ordered-collections.git",
-    "version": "v1.0.0-erl1"
+    "version": "v1.6.0-erl1"
   },
   "orders": {
     "dependencies": [
