@@ -546,7 +546,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-ordered-collections.git",
-    "version": "v1.0.0-erl1"
+    "version": "v1.6.0-erl1"
   },
   "orders": {
     "dependencies": [
