@@ -4,7 +4,7 @@ in  { erl-stetson =
         mkPackage
         [ "erl-cowboy" ]
         "git@github.com:id3as/purescript-erl-stetson.git"
-        "v0.0.1"
+        "v0.0.2"
     , erl-pinto =
         mkPackage
         [ "erl-process", "erl-lists", "erl-atom", "erl-tuples", "erl-modules" ]

@@ -280,7 +280,7 @@
       "erl-cowboy"
     ],
     "repo": "git@github.com:id3as/purescript-erl-stetson.git",
-    "version": "v0.0.1"
+    "version": "v0.0.2"
   },
   "erl-tuples": {
     "dependencies": [
