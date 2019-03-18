@@ -254,7 +254,7 @@
       "strings"
     ],
     "repo": "https://github.com/purerl/purescript-erl-modules.git",
-    "version": "v0.1.2"
+    "version": "v0.1.3"
   },
   "erl-pinto": {
     "dependencies": [
