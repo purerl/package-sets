@@ -204,7 +204,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy",
-    "version": "v0.7.1"
+    "version": "v0.7.2"
   },
   "erl-jsone": {
     "dependencies": [
@@ -280,7 +280,7 @@
       "erl-cowboy"
     ],
     "repo": "git@github.com:id3as/purescript-erl-stetson.git",
-    "version": "v0.0.2"
+    "version": "v0.0.3"
   },
   "erl-tuples": {
     "dependencies": [
