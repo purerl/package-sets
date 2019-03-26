@@ -762,7 +762,7 @@
       "functions"
     ],
     "repo": "https://github.com/purerl/purescript-undefinable.git",
-    "version": "v3.0.0-erl3"
+    "version": "v3.0.0-erl4"
   },
   "unfoldable": {
     "dependencies": [
