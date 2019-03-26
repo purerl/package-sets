@@ -265,7 +265,7 @@
       "erl-modules"
     ],
     "repo": "git@github.com:id3as/purescript-erl-pinto.git",
-    "version": "v0.0.3"
+    "version": "v0.0.4"
   },
   "erl-process": {
     "dependencies": [
@@ -503,6 +503,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "v4.0.0"
+  },
+  "media-types": {
+    "dependencies": [
+      "prelude",
+      "newtype"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
+    "version": "v4.0.1"
   },
   "newtype": {
     "dependencies": [
