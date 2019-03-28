@@ -234,7 +234,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-erl-lists.git",
-    "version": "v3.1.0"
+    "version": "v3.2.0"
   },
   "erl-maps": {
     "dependencies": [
