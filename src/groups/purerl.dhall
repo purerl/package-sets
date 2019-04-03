@@ -9,7 +9,7 @@ in  { erl-lists =
         , "tuples"
         ]
         "https://github.com/purerl/purescript-erl-lists.git"
-        "v3.1.0"
+        "v3.2.0"
     , erl-tuples =
         mkPackage
         [ "unfoldable", "tuples" ]
@@ -39,7 +39,7 @@ in  { erl-lists =
         mkPackage
         [ "erl-atom", "prelude", "strings" ]
         "https://github.com/purerl/purescript-erl-modules.git"
-        "v0.1.1"
+        "v0.1.4"
     , erl-lager =
         mkPackage
         [ "erl-lists" ]
