@@ -186,7 +186,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy",
-    "version": "v0.7.1"
+    "version": "v0.7.3"
   },
   "erl-jsone": {
     "dependencies": [
@@ -227,7 +227,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-erl-maps.git",
-    "version": "v0.1.0"
+    "version": "v0.1.1"
   },
   "erl-modules": {
     "dependencies": [
@@ -467,6 +467,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
     "version": "v4.0.0"
+  },
+  "media-types": {
+    "dependencies": [
+      "prelude",
+      "newtype"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
+    "version": "v4.0.1"
   },
   "newtype": {
     "dependencies": [
@@ -718,7 +726,7 @@
       "functions"
     ],
     "repo": "https://github.com/purerl/purescript-undefinable.git",
-    "version": "v3.0.0-erl2"
+    "version": "v3.0.0-erl4"
   },
   "unfoldable": {
     "dependencies": [
