@@ -277,10 +277,11 @@
   },
   "erl-stetson": {
     "dependencies": [
-      "erl-cowboy"
+      "erl-cowboy",
+      "erl-lager"
     ],
     "repo": "git@github.com:id3as/purescript-erl-stetson.git",
-    "version": "v0.0.3"
+    "version": "v0.0.4"
   },
   "erl-tuples": {
     "dependencies": [

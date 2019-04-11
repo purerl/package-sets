@@ -2,9 +2,9 @@ let mkPackage = ./../mkPackage.dhall
 
 in  { erl-stetson =
         mkPackage
-        [ "erl-cowboy" ]
+        [ "erl-cowboy", "erl-lager" ]
         "git@github.com:id3as/purescript-erl-stetson.git"
-        "v0.0.3"
+        "v0.0.4"
     , erl-pinto =
         mkPackage
         [ "erl-process", "erl-lists", "erl-atom", "erl-tuples", "erl-modules" ]
