@@ -281,7 +281,7 @@
       "erl-lager"
     ],
     "repo": "git@github.com:id3as/purescript-erl-stetson.git",
-    "version": "v0.0.4"
+    "version": "v0.0.5"
   },
   "erl-tuples": {
     "dependencies": [
