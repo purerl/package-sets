@@ -14,7 +14,7 @@ in  { erl-cowboy =
         , "transformers"
         ]
         "https://github.com/purerl/purescript-erl-cowboy"
-        "v0.7.3"
+        "v0.7.4"
     , erl-jsone =
         mkPackage
         [ "arrays", "integers", "assert", "either", "erl-lists", "erl-tuples" ]
