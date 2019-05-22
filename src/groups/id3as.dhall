@@ -1,6 +1,6 @@
-    let mkPackage = ./../mkPackage.dhall 
+let mkPackage = ./../mkPackage.dhall
 
-in  { apigen      =
+in  { apigen =
         mkPackage
         [ "assert"
         , "console"
@@ -17,7 +17,7 @@ in  { apigen      =
         ]
         "git@github.com:id3as/apigen.git"
         "v0.0.2"
-    , erl-pinto   =
+    , erl-pinto =
         mkPackage
         [ "erl-process", "erl-lists", "erl-atom", "erl-tuples", "erl-modules" ]
         "git@github.com:id3as/purescript-erl-pinto.git"
