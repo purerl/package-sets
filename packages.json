@@ -265,7 +265,7 @@
       "erl-modules"
     ],
     "repo": "git@github.com:id3as/purescript-erl-pinto.git",
-    "version": "v0.0.5"
+    "version": "v0.0.6"
   },
   "erl-process": {
     "dependencies": [

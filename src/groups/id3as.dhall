@@ -21,7 +21,7 @@ in  { apigen =
         mkPackage
         [ "erl-process", "erl-lists", "erl-atom", "erl-tuples", "erl-modules" ]
         "git@github.com:id3as/purescript-erl-pinto.git"
-        "v0.0.5"
+        "v0.0.6"
     , erl-stetson =
         mkPackage
         [ "erl-cowboy", "erl-lager" ]
