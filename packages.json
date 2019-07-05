@@ -273,7 +273,7 @@
       "effect"
     ],
     "repo": "https://github.com/purerl/purescript-erl-process.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "erl-stetson": {
     "dependencies": [
