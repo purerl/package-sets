@@ -265,7 +265,7 @@
       "erl-modules"
     ],
     "repo": "git@github.com:id3as/purescript-erl-pinto.git",
-    "version": "v0.0.6"
+    "version": "v0.0.7"
   },
   "erl-process": {
     "dependencies": [
@@ -281,7 +281,7 @@
       "erl-lager"
     ],
     "repo": "git@github.com:id3as/purescript-erl-stetson.git",
-    "version": "v0.0.6"
+    "version": "v0.0.7"
   },
   "erl-tuples": {
     "dependencies": [
