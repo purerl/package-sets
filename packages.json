@@ -238,6 +238,17 @@
     "repo": "https://github.com/purerl/purescript-erl-modules.git",
     "version": "v0.1.4"
   },
+  "erl-pinto": {
+    "dependencies": [
+      "erl-process",
+      "erl-lists",
+      "erl-atom",
+      "erl-tuples",
+      "erl-modules"
+    ],
+    "repo": "git@github.com:id3as/purescript-erl-pinto.git",
+    "version": "v0.0.7"
+  },
   "erl-process": {
     "dependencies": [
       "prelude",
@@ -245,6 +256,14 @@
     ],
     "repo": "https://github.com/purerl/purescript-erl-process.git",
     "version": "v2.1.0"
+  },
+  "erl-stetson": {
+    "dependencies": [
+      "erl-cowboy",
+      "erl-lager"
+    ],
+    "repo": "git@github.com:id3as/purescript-erl-stetson.git",
+    "version": "v0.0.7"
   },
   "erl-tuples": {
     "dependencies": [
