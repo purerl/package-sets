@@ -136,7 +136,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purerl/purescript-ordered-collections.git"
-        "v1.6.0-erl1"
+        "v1.6.1-erl1"
     , partial =
         mkPackage
         ([] : List Text)
@@ -156,7 +156,7 @@ in  { arrays =
         mkPackage
         [ "functions", "typelevel-prelude", "unsafe-coerce" ]
         "https://github.com/purerl/purescript-record.git"
-        "v1.0.0-erl1"
+        "v2.0.1-erl1"
     , refs =
         mkPackage
         [ "effect", "prelude" ]

@@ -9,9 +9,8 @@ in  { variant =
         , "prelude"
         , "record"
         , "tuples"
-        , "typelevel-prelude"
         , "unsafe-coerce"
         ]
         "https://github.com/natefaubion/purescript-variant.git"
-        "v5.2.0"
+        "v6.0.1"
     }
