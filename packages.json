@@ -246,8 +246,8 @@
       "erl-tuples",
       "erl-modules"
     ],
-    "repo": "git@github.com:id3as/purescript-erl-pinto.git",
-    "version": "v0.0.7"
+    "repo": "ssh://git@github.com/id3as/purescript-erl-pinto.git",
+    "version": "v0.0.8"
   },
   "erl-process": {
     "dependencies": [
@@ -262,7 +262,7 @@
       "erl-cowboy",
       "erl-lager"
     ],
-    "repo": "git@github.com:id3as/purescript-erl-stetson.git",
+    "repo": "ssh://git@github.com/id3as/purescript-erl-stetson.git",
     "version": "v0.0.7"
   },
   "erl-tuples": {
@@ -299,7 +299,7 @@
       "ordered-collections"
     ],
     "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
-    "version": "v5.1.0"
+    "version": "v3.0.1"
   },
   "foldable-traversable": {
     "dependencies": [
@@ -697,6 +697,7 @@
       "distributive",
       "effect",
       "either",
+      "exceptions",
       "foldable-traversable",
       "identity",
       "lazy",
