@@ -38,7 +38,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-catenable-lists.git"
-        "v5.0.0"
+        "v5.0.1"
     , console =
         mkPackage
         [ "effect", "prelude" ]
@@ -58,7 +58,7 @@ in  { arrays =
         mkPackage
         [ "either", "newtype", "prelude", "tuples" ]
         "https://github.com/purescript/purescript-contravariant.git"
-        "v4.0.0"
+        "v4.0.1"
     , control =
         mkPackage
         [ "prelude" ]
@@ -105,7 +105,7 @@ in  { arrays =
         , "prelude"
         ]
         "https://github.com/purescript/purescript-either.git"
-        "v4.1.0"
+        "v4.1.1"
     , enums =
         mkPackage
         [ "control"
@@ -163,7 +163,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-free.git"
-        "v5.1.0"
+        "v5.2.0"
     , functions =
         mkPackage
         [ "prelude" ]
@@ -183,7 +183,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-functors.git"
-        "v3.1.0"
+        "v3.1.1"
     , gen =
         mkPackage
         [ "either"
@@ -198,12 +198,12 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-gen.git"
-        "v2.1.0"
+        "v2.1.1"
     , generics-rep =
         mkPackage
         [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-generics-rep.git"
-        "v6.1.0"
+        "v6.1.1"
     , globals =
         mkPackage
         ([] : List Text)
@@ -257,7 +257,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-lists.git"
-        "v5.3.0"
+        "v5.4.1"
     , math =
         mkPackage
         ([] : List Text)
@@ -267,7 +267,7 @@ in  { arrays =
         mkPackage
         [ "control", "invariant", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-maybe.git"
-        "v4.0.0"
+        "v4.0.1"
     , newtype =
         mkPackage
         [ "prelude" ]
@@ -410,6 +410,7 @@ in  { arrays =
         , "distributive"
         , "effect"
         , "either"
+        , "exceptions"
         , "foldable-traversable"
         , "identity"
         , "lazy"
@@ -421,7 +422,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-transformers.git"
-        "v4.1.0"
+        "v4.2.0"
     , tuples =
         mkPackage
         [ "bifunctors"
@@ -445,7 +446,7 @@ in  { arrays =
         mkPackage
         [ "prelude", "proxy", "type-equality" ]
         "https://github.com/purescript/purescript-typelevel-prelude.git"
-        "v3.0.0"
+        "v5.0.0"
     , unfoldable =
         mkPackage
         [ "foldable-traversable", "maybe", "partial", "prelude", "tuples" ]
@@ -460,5 +461,5 @@ in  { arrays =
         mkPackage
         [ "bifunctors", "control", "either", "foldable-traversable", "prelude" ]
         "https://github.com/purescript/purescript-validation.git"
-        "v4.0.0"
+        "v4.2.0"
     }
