@@ -653,7 +653,7 @@
       "erl-lists"
     ],
     "repo": "https://github.com/purerl/purescript-simple-json.git",
-    "version": "v4.3.0-erl1"
+    "version": "v4.3.0-erl2"
   },
   "strings": {
     "dependencies": [
