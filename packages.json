@@ -188,6 +188,15 @@
     "repo": "https://github.com/purerl/purescript-erl-cowboy",
     "version": "v0.7.4"
   },
+  "erl-file": {
+    "dependencies": [
+      "erl-atom",
+      "erl-binary",
+      "prelude"
+    ],
+    "repo": "https://github.com/purerl/purescript-erl-file.git",
+    "version": "v0.0.1"
+  },
   "erl-jsone": {
     "dependencies": [
       "arrays",
@@ -227,7 +236,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-erl-maps.git",
-    "version": "v0.1.1"
+    "version": "v0.2.0"
   },
   "erl-modules": {
     "dependencies": [
@@ -495,6 +504,11 @@
     "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
     "version": "v4.0.1"
   },
+  "metadata": {
+    "dependencies": [],
+    "repo": "https://github.com/spacchetti/purescript-metadata.git",
+    "version": "v0.13.5"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
@@ -653,7 +667,7 @@
       "erl-lists"
     ],
     "repo": "https://github.com/purerl/purescript-simple-json.git",
-    "version": "v4.3.0-erl2"
+    "version": "v4.3.0-erl3"
   },
   "strings": {
     "dependencies": [
