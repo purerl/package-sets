@@ -1,7 +1,11 @@
 all: format generate validate
 
+ci: generate
+	echo "Checking if packages.json has changed..."
+	git diff --exit-code packages.json
+
 format:
-	@ls src/**/*.dhall | xargs -I{} dhall format --inplace {}
+	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
 	@echo formatted dhall files
 
 generate:
