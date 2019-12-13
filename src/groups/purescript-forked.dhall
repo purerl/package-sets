@@ -15,7 +15,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purerl/purescript-arrays.git"
-        "v5.0.0-erl1"
+        "v5.0.0-erl2"
     , assert =
         mkPackage
         [ "console", "effect", "prelude" ]
@@ -182,7 +182,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purerl/purescript-strings.git"
-        "v4.0.0-erl2"
+        "v4.0.1-erl1"
     , tailrec =
         mkPackage
         [ "bifunctors"

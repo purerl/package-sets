@@ -14,7 +14,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-arrays.git",
-    "version": "v5.0.0-erl1"
+    "version": "v5.0.0-erl2"
   },
   "assert": {
     "dependencies": [
@@ -195,7 +195,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-erl-file.git",
-    "version": "v0.0.1"
+    "version": "v0.0.2"
   },
   "erl-jsone": {
     "dependencies": [
@@ -236,7 +236,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purerl/purescript-erl-maps.git",
-    "version": "v0.2.1"
+    "version": "v0.3.1"
   },
   "erl-modules": {
     "dependencies": [
@@ -280,7 +280,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-erl-tuples.git",
-    "version": "v3.1.0"
+    "version": "v3.2.0"
   },
   "exceptions": {
     "dependencies": [
@@ -689,7 +689,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-strings.git",
-    "version": "v4.0.0-erl2"
+    "version": "v4.0.1-erl1"
   },
   "tailrec": {
     "dependencies": [
