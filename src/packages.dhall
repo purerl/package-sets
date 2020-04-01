@@ -8,5 +8,6 @@
 ⫽ ./groups/natefaubion.dhall
 ⫽ ./groups/LiamGoodacre.dhall
 ⫽ ./groups/justinwoo.dhall
+⫽ ./groups/dariooddenino.dhall
 ⫽ ./groups/id3as.dhall
 ⫽ ./groups/spacchetti.dhall

@@ -1,6 +1,6 @@
 let mkPackage = ./../mkPackage.dhall
 
-in  { record-prefix =
+in  { undefinable =
         mkPackage
         [ "prelude", "heterogeneous", "console", "typelevel-prelude" ]
         "ssh://git@github.com/dariooddenino/purescript-record-prefix.git"

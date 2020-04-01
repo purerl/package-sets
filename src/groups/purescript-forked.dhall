@@ -137,6 +137,11 @@ in  { arrays =
         ]
         "https://github.com/purerl/purescript-ordered-collections.git"
         "v1.6.1-erl1"
+    , profunctor-lenses =
+        mkPackage
+        [ "prelude" ]
+        "ssh://git@github.com/purerl/purescript-profunctor-lenses.git"
+        "v6.3.0-erl1"
     , partial =
         mkPackage
         ([] : List Text)

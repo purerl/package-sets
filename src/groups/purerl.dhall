@@ -34,7 +34,7 @@ in  { erl-lists =
         mkPackage
         [ "erl-lists", "functions", "prelude", "tuples", "unfoldable" ]
         "https://github.com/purerl/purescript-erl-maps.git"
-        "v0.3.1"
+        "v0.4.0"
     , erl-modules =
         mkPackage
         [ "erl-atom", "prelude", "strings" ]

@@ -8,13 +8,14 @@ in  { erl-cowboy =
         , "erl-tuples"
         , "erl-binary"
         , "erl-modules"
+        , "erl-process"
         , "foreign"
         , "maybe"
         , "prelude"
         , "transformers"
         ]
         "https://github.com/purerl/purescript-erl-cowboy"
-        "v0.7.4"
+        "v0.8.0"
     , erl-jsone =
         mkPackage
         [ "arrays", "integers", "assert", "either", "erl-lists", "erl-tuples" ]
