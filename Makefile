@@ -1,4 +1,6 @@
-all: format generate validate
+.PHONY: all format generate validate dhall ci
+
+all: format generate validate dhall
 
 ci: generate
 	echo "Checking if packages.json has changed..."
@@ -12,6 +14,11 @@ generate: SHELL:=/usr/bin/env bash
 generate:
 	@dhall-to-json --pretty <<< "./src/packages.dhall" | jq '.' -S  > packages.json
 	@echo generated to packages.json
+
+dhall: packages.dhall
+
+packages.dhall: packages.json
+	nix-shell --run '>packages.dhall dhall <<< ./src/packages.dhall'
 
 validate:
 	@./scripts/validate.pl

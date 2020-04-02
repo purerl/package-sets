@@ -269,11 +269,20 @@
   },
   "erl-stetson": {
     "dependencies": [
-      "erl-cowboy",
-      "erl-lager"
+      "erl-atom",
+      "erl-binary",
+      "erl-lists",
+      "erl-maps",
+      "erl-tuples",
+      "erl-modules",
+      "foreign",
+      "maybe",
+      "prelude",
+      "transformers",
+      "routing-duplex"
     ],
     "repo": "ssh://git@github.com/id3as/purescript-erl-stetson.git",
-    "version": "v0.0.7"
+    "version": "v0.0.8"
   },
   "erl-tuples": {
     "dependencies": [

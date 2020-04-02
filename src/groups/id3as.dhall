@@ -7,7 +7,18 @@ in  { erl-pinto =
         "v0.0.8"
     , erl-stetson =
         mkPackage
-        [ "erl-cowboy", "erl-lager" ]
+        [ "erl-atom"
+        , "erl-binary"
+        , "erl-lists"
+        , "erl-maps"
+        , "erl-tuples"
+        , "erl-modules"
+        , "foreign"
+        , "maybe"
+        , "prelude"
+        , "transformers"
+        , "routing-duplex"
+        ]
         "ssh://git@github.com/id3as/purescript-erl-stetson.git"
-        "v0.0.7"
+        "v0.0.8"
     }

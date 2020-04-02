@@ -76,7 +76,7 @@ in  { arrays =
         mkPackage
         [ "maybe", "either", "effect" ]
         "https://github.com/purerl/purescript-exceptions.git"
-        "v4.0.0-erl1"
+        "v4.0.0-erl2"
     , foldable-traversable =
         mkPackage
         [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
