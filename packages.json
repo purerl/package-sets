@@ -299,7 +299,7 @@
       "effect"
     ],
     "repo": "https://github.com/purerl/purescript-exceptions.git",
-    "version": "v4.0.0-erl1"
+    "version": "v4.0.0-erl2"
   },
   "exists": {
     "dependencies": [
