@@ -13,5 +13,5 @@ in  { simple-json =
         , "erl-lists"
         ]
         "https://github.com/purerl/purescript-simple-json.git"
-        "v7.0.0-erl1"
+        "v7.0.0-erl2"
     }
