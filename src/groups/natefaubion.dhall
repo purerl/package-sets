@@ -16,7 +16,7 @@ in  { variant =
     , heterogeneous =
         mkPackage
         [ "prelude", "record", "tuples", "functors", "variant", "either" ]
-        "ssh://git@github.com/natefaubion/purescript-heterogeneous.git"
+        "https://github.com/natefaubion/purescript-heterogeneous.git"
         "v0.4.1"
     , routing-duplex =
         mkPackage
@@ -32,6 +32,6 @@ in  { variant =
         , "strings"
         , "typelevel-prelude"
         ]
-        "ssh://git@github.com/natefaubion/purescript-routing-duplex.git"
+        "https://github.com/natefaubion/purescript-routing-duplex.git"
         "v0.4.1"
     }

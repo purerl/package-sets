@@ -140,7 +140,7 @@ in  { arrays =
     , profunctor-lenses =
         mkPackage
         [ "prelude" ]
-        "ssh://git@github.com/purerl/purescript-profunctor-lenses.git"
+        "https://github.com/purerl/purescript-profunctor-lenses.git"
         "v6.3.0-erl1"
     , partial =
         mkPackage
