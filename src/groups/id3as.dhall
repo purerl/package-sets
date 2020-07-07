@@ -4,7 +4,7 @@ in  { erl-pinto =
         mkPackage
         [ "erl-process", "erl-lists", "erl-atom", "erl-tuples", "erl-modules" ]
         "https://github.com/id3as/purescript-erl-pinto.git"
-        "v0.0.8"
+        "v0.0.9"
     , erl-stetson =
         mkPackage
         [ "erl-atom"
@@ -20,5 +20,15 @@ in  { erl-pinto =
         , "routing-duplex"
         ]
         "https://github.com/id3as/purescript-erl-stetson.git"
-        "v0.0.8"
+        "v0.0.9"
+    , erl-logger =
+        mkPackage
+        [ "prelude", "erl-atom", "erl-lists", "record" ]
+        "https://github.com/id3as/purescript-erl-logger.git"
+        "v0.0.1"
+    , erl-simplebus =
+        mkPackage
+        [ "erl-process", "effect" ]
+        "https://github.com/id3as/purescript-erl-simplebus.git"
+        "v0.0.1"
     }
