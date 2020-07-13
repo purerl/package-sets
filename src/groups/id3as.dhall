@@ -2,7 +2,13 @@ let mkPackage = ./../mkPackage.dhall
 
 in  { erl-pinto =
         mkPackage
-        [ "erl-process", "erl-lists", "erl-atom", "erl-tuples", "erl-modules" ]
+        [ "erl-process"
+        , "erl-lists"
+        , "erl-atom"
+        , "erl-tuples"
+        , "erl-modules"
+        , "foreign"
+        ]
         "https://github.com/id3as/purescript-erl-pinto.git"
         "v0.0.9"
     , erl-stetson =
@@ -13,6 +19,7 @@ in  { erl-pinto =
         , "erl-maps"
         , "erl-tuples"
         , "erl-modules"
+        , "erl-cowboy"
         , "foreign"
         , "maybe"
         , "prelude"
@@ -28,7 +35,7 @@ in  { erl-pinto =
         "v0.0.1"
     , erl-simplebus =
         mkPackage
-        [ "erl-process", "effect" ]
+        [ "erl-process", "effect", "newtype", "erl-pinto", "maybe" ]
         "https://github.com/id3as/purescript-erl-simplebus.git"
         "v0.0.1"
     }

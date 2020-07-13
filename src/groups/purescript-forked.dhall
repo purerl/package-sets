@@ -139,7 +139,27 @@ in  { arrays =
         "v1.6.1-erl1"
     , profunctor-lenses =
         mkPackage
-        [ "prelude" ]
+        [ "arrays"
+        , "bifunctors"
+        , "const"
+        , "control"
+        , "distributive"
+        , "either"
+        , "foldable-traversable"
+        , "functors"
+        , "identity"
+        , "lists"
+        , "maybe"
+        , "newtype"
+        , "ordered-collections"
+        , "partial"
+        , "prelude"
+        , "profunctor"
+        , "record"
+        , "transformers"
+        , "tuples"
+        , "erl-maps"
+        ]
         "https://github.com/purerl/purescript-profunctor-lenses.git"
         "v6.3.0-erl1"
     , partial =

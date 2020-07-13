@@ -264,7 +264,8 @@
       "erl-lists",
       "erl-atom",
       "erl-tuples",
-      "erl-modules"
+      "erl-modules",
+      "foreign"
     ],
     "repo": "https://github.com/id3as/purescript-erl-pinto.git",
     "version": "v0.0.9"
@@ -280,7 +281,10 @@
   "erl-simplebus": {
     "dependencies": [
       "erl-process",
-      "effect"
+      "effect",
+      "newtype",
+      "erl-pinto",
+      "maybe"
     ],
     "repo": "https://github.com/id3as/purescript-erl-simplebus.git",
     "version": "v0.0.1"
@@ -293,6 +297,7 @@
       "erl-maps",
       "erl-tuples",
       "erl-modules",
+      "erl-cowboy",
       "foreign",
       "maybe",
       "prelude",
@@ -644,7 +649,26 @@
   },
   "profunctor-lenses": {
     "dependencies": [
-      "prelude"
+      "arrays",
+      "bifunctors",
+      "const",
+      "control",
+      "distributive",
+      "either",
+      "foldable-traversable",
+      "functors",
+      "identity",
+      "lists",
+      "maybe",
+      "newtype",
+      "ordered-collections",
+      "partial",
+      "prelude",
+      "profunctor",
+      "record",
+      "transformers",
+      "tuples",
+      "erl-maps"
     ],
     "repo": "https://github.com/purerl/purescript-profunctor-lenses.git",
     "version": "v6.3.0-erl1"
@@ -738,7 +762,8 @@
       "record",
       "typelevel-prelude",
       "variant",
-      "erl-lists"
+      "erl-lists",
+      "erl-maps"
     ],
     "repo": "https://github.com/purerl/purescript-simple-json.git",
     "version": "v7.0.0-erl2"
