@@ -307,6 +307,21 @@
     "repo": "https://github.com/id3as/purescript-erl-stetson.git",
     "version": "v0.0.9"
   },
+  "erl-test-eunit": {
+    "dependencies": [
+      "assert",
+      "console",
+      "debug",
+      "erl-lists",
+      "erl-tuples",
+      "foreign",
+      "free",
+      "prelude",
+      "psci-support"
+    ],
+    "repo": "https://github.com/id3as/purescript-erl-test-eunit.git",
+    "version": "v0.0.1"
+  },
   "erl-tuples": {
     "dependencies": [
       "unfoldable",

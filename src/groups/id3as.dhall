@@ -38,4 +38,18 @@ in  { erl-pinto =
         [ "erl-process", "effect", "newtype", "erl-pinto", "maybe" ]
         "https://github.com/id3as/purescript-erl-simplebus.git"
         "v0.0.1"
+    , erl-test-eunit =
+        mkPackage
+        [ "assert"
+        , "console"
+        , "debug"
+        , "erl-lists"
+        , "erl-tuples"
+        , "foreign"
+        , "free"
+        , "prelude"
+        , "psci-support"
+        ]
+        "https://github.com/id3as/purescript-erl-test-eunit.git"
+        "v0.0.1"
     }
