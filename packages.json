@@ -320,7 +320,7 @@
       "psci-support"
     ],
     "repo": "https://github.com/id3as/purescript-erl-test-eunit.git",
-    "version": "v0.0.1"
+    "version": "v0.0.2"
   },
   "erl-tuples": {
     "dependencies": [

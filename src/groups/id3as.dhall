@@ -51,5 +51,5 @@ in  { erl-pinto =
         , "psci-support"
         ]
         "https://github.com/id3as/purescript-erl-test-eunit.git"
-        "v0.0.1"
+        "v0.0.2"
     }
