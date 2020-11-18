@@ -9,7 +9,7 @@ in  { erl-lists =
         , "tuples"
         ]
         "https://github.com/purerl/purescript-erl-lists.git"
-        "v3.2.0"
+        "v4.0.0"
     , erl-tuples =
         mkPackage
         [ "unfoldable", "tuples" ]

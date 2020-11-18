@@ -226,7 +226,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-erl-lists.git",
-    "version": "v3.2.0"
+    "version": "v4.0.0"
   },
   "erl-logger": {
     "dependencies": [
