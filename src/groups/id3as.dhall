@@ -27,7 +27,7 @@ in  { erl-pinto =
         , "routing-duplex"
         ]
         "https://github.com/id3as/purescript-erl-stetson.git"
-        "v0.0.9"
+        "v0.10.0"
     , erl-logger =
         mkPackage
         [ "prelude", "erl-atom", "erl-lists", "record" ]

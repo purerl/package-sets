@@ -305,7 +305,7 @@
       "routing-duplex"
     ],
     "repo": "https://github.com/id3as/purescript-erl-stetson.git",
-    "version": "v0.0.9"
+    "version": "v0.10.0"
   },
   "erl-test-eunit": {
     "dependencies": [
