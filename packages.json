@@ -870,13 +870,11 @@
   },
   "undefinable": {
     "dependencies": [
-      "prelude",
-      "heterogeneous",
-      "console",
-      "typelevel-prelude"
+      "maybe",
+      "functions"
     ],
-    "repo": "https://github.com/dariooddenino/purescript-record-prefix.git",
-    "version": "v1.0.0"
+    "repo": "https://github.com/purerl/purescript-undefinable.git",
+    "version": "v3.0.0-erl5"
   },
   "unfoldable": {
     "dependencies": [
