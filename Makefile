@@ -5,7 +5,8 @@ all: format generate validate dhall
 ci: generate
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
-	cd src && spago verify-set
+	# TODO spago verify & backend
+	# cd src && spago verify-set
 
 format:
 	@nix-shell --run 'find src/ -iname "*.dhall" -exec dhall format --inplace {} \;'
