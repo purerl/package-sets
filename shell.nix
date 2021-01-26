@@ -40,11 +40,10 @@ mkShell {
     # whatever the latest is exposed via nixpkgs
     purerl-support.purescript-0-13-8
     purerl-support.spago-0-16-0
-    purerl-support.dhall-json-1-5-0
 
     # Purerl backend for purescript
     purerl.purerl-0-0-7
-
+    dhall-json
     dhall
   ];
 }
