@@ -45,6 +45,7 @@ in  { erl-pinto =
           , "debug"
           , "erl-lists"
           , "erl-tuples"
+          , "erl-atom"
           , "foreign"
           , "free"
           , "prelude"
