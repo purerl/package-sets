@@ -14,6 +14,8 @@ jobs:
       - name: Render packages.dhall
         run: |
           nix-shell --run '>packages.dhall dhall <<< ./src/packages.dhall'
+      - name: generate docs
+        run: nix-shell --run 'make pursuit'
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -34,3 +36,12 @@ jobs:
           asset_path: ./packages.dhall
           asset_name: packages.dhall
           asset_content_type: application/x-dhall
+      - name: upload pursuit docs
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          source: "data/*"
+          target: "~"
+
