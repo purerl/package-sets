@@ -14,4 +14,13 @@ jobs:
         path: |
           output
         key: ${{ runner.os }}-build-products
-    - run: nix-shell --run 'make pursuit'
+    - name: generate docs
+      run: nix-shell --run 'make pursuit'
+    - name: upload via scp
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        source: "data/"
+        target: "data"
