@@ -22,5 +22,5 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        source: "data/"
+        source: "data/*"
         target: "data"
