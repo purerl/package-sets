@@ -16,7 +16,7 @@ in  { arrays =
           , "unsafe-coerce"
           ]
           "https://github.com/purerl/purescript-arrays.git"
-          "6d4796e80ce14d8758a97f21ba7cadae28b3aaf4"
+          "24ac35d3598af6bfb5e479d313f9493ab4d62984"
     , `assert` =
         -- 5.0.0
         mkPackage
