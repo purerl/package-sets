@@ -12,12 +12,12 @@ in  { variant =
           , "unsafe-coerce"
           ]
           "https://github.com/natefaubion/purescript-variant.git"
-          "v6.0.1"
+          "v7.0.2"
     , heterogeneous =
         mkPackage
           [ "prelude", "record", "tuples", "functors", "variant", "either" ]
           "https://github.com/natefaubion/purescript-heterogeneous.git"
-          "v0.4.1"
+          "v0.5.0"
     , routing-duplex =
         mkPackage
           [ "arrays"
@@ -33,5 +33,5 @@ in  { variant =
           , "typelevel-prelude"
           ]
           "https://github.com/natefaubion/purescript-routing-duplex.git"
-          "v0.4.1"
+          "v0.5.0"
     }
