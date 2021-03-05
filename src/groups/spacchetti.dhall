@@ -4,5 +4,5 @@ in  { metadata =
         mkPackage
           ([] : List Text)
           "https://github.com/spacchetti/purescript-metadata.git"
-          "v0.13.8"
+          "v0.14.0"
     }
