@@ -14,7 +14,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-arrays.git",
-    "version": "6d4796e80ce14d8758a97f21ba7cadae28b3aaf4"
+    "version": "24ac35d3598af6bfb5e479d313f9493ab4d62984"
   },
   "assert": {
     "dependencies": [
@@ -229,7 +229,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-erl-lists.git",
-    "version": "v4.0.0"
+    "version": "dbff22cb1f3e4eb243baf6d2882fc5738047b26a"
   },
   "erl-logger": {
     "dependencies": [
@@ -259,7 +259,7 @@
       "strings"
     ],
     "repo": "https://github.com/purerl/purescript-erl-modules.git",
-    "version": "v0.1.4"
+    "version": "79ee9a4c35f798cc00f1bf35dba83e7aeaba4f2a"
   },
   "erl-pinto": {
     "dependencies": [
@@ -332,7 +332,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purerl/purescript-erl-tuples.git",
-    "version": "v3.2.0"
+    "version": "8d5d1f8825342a7162de71e66c4bb8de2f521062"
   },
   "exceptions": {
     "dependencies": [
@@ -492,7 +492,7 @@
       "either"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
-    "version": "v0.4.1"
+    "version": "v0.5.0"
   },
   "identity": {
     "dependencies": [
@@ -521,6 +521,14 @@
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
     "version": "v5.0.0"
+  },
+  "js-uri": {
+    "dependencies": [
+      "functions",
+      "maybe"
+    ],
+    "repo": "https://github.com/purerl/purescript-js-uri.git",
+    "version": "943ae2cd2cf81e62a658e89ab27cca7754a0fadd"
   },
   "lazy": {
     "dependencies": [
@@ -827,7 +835,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/natefaubion/purescript-routing-duplex.git",
-    "version": "v0.4.1"
+    "version": "v0.5.0"
   },
   "safe-coerce": {
     "dependencies": [
@@ -956,7 +964,7 @@
       "functions"
     ],
     "repo": "https://github.com/purerl/purescript-undefinable.git",
-    "version": "v3.0.0-erl5"
+    "version": "e0a8cc54473d69536cdbb48db5ec926b39fc5dbb"
   },
   "unfoldable": {
     "dependencies": [
@@ -998,6 +1006,6 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v6.0.1"
+    "version": "v7.0.2"
   }
 }

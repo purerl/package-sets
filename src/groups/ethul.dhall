@@ -1,6 +1,7 @@
 let mkPackage = ./../mkPackage.dhall
 
-in  { undefinable = -- 4.0.0
+in  { undefinable =
+        -- 4.0.0
         mkPackage
           [ "maybe", "functions" ]
           "https://github.com/purerl/purescript-undefinable.git"

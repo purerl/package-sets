@@ -19,19 +19,20 @@ in  { variant =
           "https://github.com/natefaubion/purescript-heterogeneous.git"
           "v0.5.0"
     , routing-duplex =
-        mkPackage
+        { dependencies =
           [ "arrays"
           , "control"
           , "either"
-          , "generics-rep"
-          , "globals"
+          , "js-uri"
           , "lazy"
+          , "numbers"
           , "prelude"
           , "profunctor"
           , "record"
           , "strings"
           , "typelevel-prelude"
           ]
-          "https://github.com/natefaubion/purescript-routing-duplex.git"
-          "v0.5.0"
+        , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
+        , version = "v0.5.0"
+        }
     }

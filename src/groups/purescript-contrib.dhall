@@ -1,6 +1,12 @@
 let mkPackage = ./../mkPackage.dhall
 
-in  { nullable =
+in  { js-uri =
+        --v2.0.0
+        { dependencies = [ "functions", "maybe" ]
+        , repo = "https://github.com/purerl/purescript-js-uri.git"
+        , version = "943ae2cd2cf81e62a658e89ab27cca7754a0fadd"
+        }
+    , nullable =
         -- 5.0.0
         mkPackage
           [ "maybe", "functions" ]
