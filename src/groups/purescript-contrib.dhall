@@ -1,10 +1,10 @@
 let mkPackage = ./../mkPackage.dhall
 
 in  { js-uri =
-        { dependencies = [ "functions", "maybe" ]
-        , repo = "https://github.com/purerl/purescript-js-uri.git"
-        , version = "v2.0.0-erl1"
-        }
+      { dependencies = [ "functions", "maybe" ]
+      , repo = "https://github.com/purerl/purescript-js-uri.git"
+      , version = "v2.0.0-erl1"
+      }
     , nullable =
         mkPackage
           [ "maybe", "functions" ]

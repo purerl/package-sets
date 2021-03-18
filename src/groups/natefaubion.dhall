@@ -19,20 +19,20 @@ in  { variant =
           "https://github.com/natefaubion/purescript-heterogeneous.git"
           "v0.5.0"
     , routing-duplex =
-        { dependencies =
-          [ "arrays"
-          , "control"
-          , "either"
-          , "js-uri"
-          , "lazy"
-          , "numbers"
-          , "prelude"
-          , "profunctor"
-          , "record"
-          , "strings"
-          , "typelevel-prelude"
-          ]
-        , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
-        , version = "v0.5.0"
-        }
+      { dependencies =
+        [ "arrays"
+        , "control"
+        , "either"
+        , "js-uri"
+        , "lazy"
+        , "numbers"
+        , "prelude"
+        , "profunctor"
+        , "record"
+        , "strings"
+        , "typelevel-prelude"
+        ]
+      , repo = "https://github.com/natefaubion/purescript-routing-duplex.git"
+      , version = "v0.5.0"
+      }
     }

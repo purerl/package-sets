@@ -1,7 +1,6 @@
 let mkPackage = ./../mkPackage.dhall
 
-in  { = 
-    simple-json =
+in  { simple-json =
         mkPackage
           [ "exceptions"
           , "foreign"

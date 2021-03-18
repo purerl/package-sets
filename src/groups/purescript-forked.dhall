@@ -25,12 +25,12 @@ in  { arrays =
         mkPackage
           [ "effect", "prelude" ]
           "https://github.com/purerl/purescript-console.git"
-        "v5.0.0-erl1"
+          "v5.0.0-erl1"
     , control =
         mkPackage
           [ "newtype", "prelude" ]
           "https://github.com/purerl/purescript-control.git"
-        "v5.0.0-erl1"
+          "v5.0.0-erl1"
     , datetime =
         mkPackage
           [ "bifunctors"
@@ -128,10 +128,10 @@ in  { arrays =
           "https://github.com/purerl/purescript-math.git"
           "v3.0.0-erl1"
     , numbers =
-        { dependencies = [ "functions", "math", "maybe" ]
-        , repo = "https://github.com/purerl/purescript-numbers.git"
-        , version = "v8.0.0-erl1"
-        }
+      { dependencies = [ "functions", "math", "maybe" ]
+      , repo = "https://github.com/purerl/purescript-numbers.git"
+      , version = "v8.0.0-erl1"
+      }
     , ordered-collections =
         mkPackage
           [ "arrays"
