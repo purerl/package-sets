@@ -4,7 +4,6 @@ in  { simple-json =
         mkPackage
           [ "exceptions"
           , "foreign"
-          , "globals"
           , "nullable"
           , "prelude"
           , "record"

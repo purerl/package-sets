@@ -27,7 +27,7 @@ in  { erl-lists =
           "v0.4.0"
     , erl-process =
         mkPackage
-          [ "prelude", "effect" ]
+          [ "prelude", "effect", "either", "foreign" ]
           "https://github.com/purerl/purescript-erl-process.git"
           "v3.0.0"
     , erl-maps =
@@ -49,5 +49,5 @@ in  { erl-lists =
         mkPackage
           [ "erl-lists" ]
           "https://github.com/purerl/purescript-erl-lager.git"
-          "v0.0.2"
+          "v0.0.1"
     }

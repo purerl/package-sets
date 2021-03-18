@@ -218,7 +218,7 @@
       "erl-lists"
     ],
     "repo": "https://github.com/purerl/purescript-erl-lager.git",
-    "version": "v0.0.2"
+    "version": "v0.0.1"
   },
   "erl-lists": {
     "dependencies": [
@@ -261,54 +261,15 @@
     "repo": "https://github.com/purerl/purescript-erl-modules.git",
     "version": "v0.1.6"
   },
-  "erl-pinto": {
-    "dependencies": [
-      "erl-process",
-      "erl-lists",
-      "erl-atom",
-      "erl-tuples",
-      "erl-modules",
-      "foreign"
-    ],
-    "repo": "https://github.com/id3as/purescript-erl-pinto.git",
-    "version": "v0.0.9"
-  },
   "erl-process": {
     "dependencies": [
       "prelude",
-      "effect"
+      "effect",
+      "either",
+      "foreign"
     ],
     "repo": "https://github.com/purerl/purescript-erl-process.git",
     "version": "v3.0.0"
-  },
-  "erl-simplebus": {
-    "dependencies": [
-      "erl-process",
-      "effect",
-      "newtype",
-      "erl-pinto",
-      "maybe"
-    ],
-    "repo": "https://github.com/id3as/purescript-erl-simplebus.git",
-    "version": "v0.0.1"
-  },
-  "erl-stetson": {
-    "dependencies": [
-      "erl-atom",
-      "erl-binary",
-      "erl-lists",
-      "erl-maps",
-      "erl-tuples",
-      "erl-modules",
-      "erl-cowboy",
-      "foreign",
-      "maybe",
-      "prelude",
-      "transformers",
-      "routing-duplex"
-    ],
-    "repo": "https://github.com/id3as/purescript-erl-stetson.git",
-    "version": "v0.10.0"
   },
   "erl-test-eunit": {
     "dependencies": [
@@ -793,7 +754,6 @@
     "dependencies": [
       "exceptions",
       "foreign",
-      "globals",
       "nullable",
       "prelude",
       "record",
