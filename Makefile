@@ -3,7 +3,7 @@
 all: format generate validate dhall
 
 ## TODO building pursuit here because spago verify-set doesn't respect backend yet
-ci: generate pursuit
+ci: generate 
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
 	# TODO spago verify & backend
