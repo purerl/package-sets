@@ -19,5 +19,5 @@ in  { erl-logger =
           , "psci-support"
           ]
           "https://github.com/id3as/purescript-erl-test-eunit.git"
-          "v0.0.2"
+          "v0.0.3"
     }

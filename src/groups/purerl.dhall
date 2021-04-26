@@ -14,17 +14,17 @@ in  { erl-lists =
         mkPackage
           [ "unfoldable", "tuples" ]
           "https://github.com/purerl/purescript-erl-tuples.git"
-          "v3.1.0"
+          "v3.3.0"
     , erl-atom =
         mkPackage
           [ "prelude", "unsafe-coerce" ]
           "https://github.com/purerl/purescript-erl-atom.git"
-          "v1.1.1"
+          "v1.2.0"
     , erl-binary =
         mkPackage
           [ "prelude", "maybe", "erl-lists" ]
           "https://github.com/purerl/purescript-erl-binary.git"
-          "v0.4.0"
+          "v0.5.0"
     , erl-process =
         mkPackage
           [ "prelude", "effect", "either", "foreign" ]
