@@ -85,6 +85,15 @@
     "repo": "https://github.com/purerl/purescript-control.git",
     "version": "v5.0.0-erl1"
   },
+  "convertable-options": {
+    "dependencies": [
+      "effect",
+      "maybe",
+      "record"
+    ],
+    "repo": "https://github.com/natefaubion/purescript-convertable-options",
+    "version": "v1.0.0"
+  },
   "datetime": {
     "dependencies": [
       "bifunctors",
