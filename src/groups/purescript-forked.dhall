@@ -51,7 +51,7 @@ in  { arrays =
           , "tuples"
           ]
           "https://github.com/purerl/purescript-datetime.git"
-          "v5.0.0-erl1"
+          "v5.0.2-erl1"
     , effect =
         mkPackage
           [ "prelude" ]
@@ -158,6 +158,38 @@ in  { arrays =
           ([] : List Text)
           "https://github.com/purerl/purescript-prelude.git"
           "v5.0.0-erl1"
+    , quickcheck =
+      { dependencies =
+        [ "arrays"
+        , "console"
+        , "control"
+        , "effect"
+        , "either"
+        , "enums"
+        , "exceptions"
+        , "foldable-traversable"
+        , "gen"
+        , "identity"
+        , "integers"
+        , "lazy"
+        , "lcg"
+        , "lists"
+        , "math"
+        , "maybe"
+        , "newtype"
+        , "nonempty"
+        , "partial"
+        , "prelude"
+        , "record"
+        , "strings"
+        , "tailrec"
+        , "transformers"
+        , "tuples"
+        , "unfoldable"
+        ]
+      , repo = "https://github.com/purerl/purescript-quickcheck.git"
+      , version = "v7.1.0-erl1"
+      }
     , random =
         mkPackage
           [ "effect", "integers", "math" ]

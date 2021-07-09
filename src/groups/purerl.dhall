@@ -14,7 +14,7 @@ in  { erl-lists =
         mkPackage
           [ "unfoldable", "tuples" ]
           "https://github.com/purerl/purescript-erl-tuples.git"
-          "v3.3.0"
+          "v3.3.1"
     , erl-atom =
         mkPackage
           [ "prelude", "unsafe-coerce" ]
@@ -29,12 +29,12 @@ in  { erl-lists =
         mkPackage
           [ "prelude", "effect", "either", "foreign" ]
           "https://github.com/purerl/purescript-erl-process.git"
-          "v3.0.0"
+          "v3.1.0"
     , erl-maps =
         mkPackage
           [ "erl-lists", "functions", "prelude", "tuples", "unfoldable" ]
           "https://github.com/purerl/purescript-erl-maps.git"
-          "v0.4.0"
+          "v0.5.0"
     , erl-modules =
         mkPackage
           [ "erl-atom", "prelude", "strings" ]
