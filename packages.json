@@ -948,7 +948,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purerl/purescript-strings.git",
-    "version": "v5.0.0-erl1"
+    "version": "v5.0.0-erl2"
   },
   "tailrec": {
     "dependencies": [
