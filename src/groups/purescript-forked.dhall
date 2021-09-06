@@ -225,7 +225,7 @@ in  { arrays =
           , "unsafe-coerce"
           ]
           "https://github.com/purerl/purescript-strings.git"
-          "v5.0.0-erl1"
+          "v5.0.0-erl2"
     , tailrec =
         mkPackage
           [ "bifunctors"
