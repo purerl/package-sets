@@ -6,7 +6,6 @@
 ⫽ ./groups/ethul.dhall
 ⫽ ./groups/garyb.dhall
 ⫽ ./groups/natefaubion.dhall
-⫽ ./groups/LiamGoodacre.dhall
 ⫽ ./groups/justinwoo.dhall
 ⫽ ./groups/dariooddenino.dhall
 ⫽ ./groups/id3as.dhall

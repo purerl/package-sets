@@ -1,8 +1,6 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { undefinable =
-        mkPackage
-          [ "maybe", "functions" ]
-          "https://github.com/purerl/purescript-undefinable.git"
-          "v4.0.0-erl1"
-    }
+{ undefinable =
+  { dependencies = [ "maybe", "functions" ]
+  , repo = "https://github.com/purerl/purescript-undefinable.git"
+  , version = "v4.0.0-erl1"
+  }
+}

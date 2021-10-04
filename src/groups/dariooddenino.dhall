@@ -1,8 +1,7 @@
-let mkPackage = ./../mkPackage.dhall
-
-in  { record-prefix =
-        mkPackage
-          [ "prelude", "heterogeneous", "console", "typelevel-prelude" ]
-          "https://github.com/dariooddenino/purescript-record-prefix.git"
-          "v1.0.0"
-    }
+{ record-prefix =
+  { dependencies =
+    [ "prelude", "heterogeneous", "console", "typelevel-prelude" ]
+  , repo = "https://github.com/dariooddenino/purescript-record-prefix.git"
+  , version = "v1.0.0"
+  }
+}

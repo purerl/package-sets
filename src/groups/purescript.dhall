@@ -105,6 +105,18 @@
   , repo = "https://github.com/purescript/purescript-exists.git"
   , version = "v5.0.0"
   }
+, filterable =
+  { dependencies =
+    [ "arrays"
+    , "either"
+    , "foldable-traversable"
+    , "identity"
+    , "lists"
+    , "ordered-collections"
+    ]
+  , repo = "https://github.com/purescript/purescript-filterable.git"
+  , version = "v3.0.1"
+  }
 , foldable-traversable =
   { dependencies =
     [ "bifunctors"

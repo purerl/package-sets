@@ -121,7 +121,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-debug.git",
-    "version": "v4.0.0-erl1"
+    "version": "v5.0.0-erl1"
   },
   "distributive": {
     "dependencies": [
@@ -199,7 +199,7 @@
       "transformers"
     ],
     "repo": "https://github.com/purerl/purescript-erl-cowboy",
-    "version": "v0.9.0"
+    "version": "f1e3c71405f6b6d2f38086eb7ece8e197f5f8bd2"
   },
   "erl-file": {
     "dependencies": [
@@ -307,7 +307,7 @@
       "prelude"
     ],
     "repo": "https://github.com/id3as/purescript-erl-simplebus.git",
-    "version": "v0.0.2"
+    "version": "bc1c7e920655e49255d82d85d1bca3e4c06625f5"
   },
   "erl-test-eunit": {
     "dependencies": [
@@ -323,7 +323,7 @@
       "psci-support"
     ],
     "repo": "https://github.com/id3as/purescript-erl-test-eunit.git",
-    "version": "v0.0.3"
+    "version": "1704c063e20f0d1a9bd723ffdf18c00700203569"
   },
   "erl-tuples": {
     "dependencies": [
@@ -366,7 +366,7 @@
       "lists",
       "ordered-collections"
     ],
-    "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
+    "repo": "https://github.com/purescript/purescript-filterable.git",
     "version": "v3.0.1"
   },
   "foldable-traversable": {
@@ -508,7 +508,7 @@
       "either"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
-    "version": "v0.5.0"
+    "version": "v0.5.1"
   },
   "identity": {
     "dependencies": [
@@ -613,7 +613,7 @@
   "metadata": {
     "dependencies": [],
     "repo": "https://github.com/spacchetti/purescript-metadata.git",
-    "version": "v0.14.3"
+    "version": "v0.14.4"
   },
   "newtype": {
     "dependencies": [
@@ -1064,6 +1064,6 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v7.0.2"
+    "version": "v7.0.3"
   }
 }
