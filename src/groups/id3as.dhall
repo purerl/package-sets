@@ -42,6 +42,6 @@ in  { erl-logger =
       { dependencies =
         [ "effect", "erl-process", "maybe", "newtype", "prelude" ]
       , repo = "https://github.com/id3as/purescript-erl-simplebus.git"
-      , version = "v0.0.2"
+      , version = "bc1c7e920655e49255d82d85d1bca3e4c06625f5"
       }
     }

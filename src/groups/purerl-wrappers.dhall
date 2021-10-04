@@ -15,7 +15,7 @@ in  { erl-cowboy =
           , "transformers"
           ]
           "https://github.com/purerl/purescript-erl-cowboy"
-          "v0.9.0"
+          "f1e3c71405f6b6d2f38086eb7ece8e197f5f8bd2" -- On branch
     , erl-jsone =
         mkPackage
           [ "arrays"
