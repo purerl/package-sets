@@ -10,14 +10,14 @@ let
     builtins.fetchGit {
       url = "https://github.com/purerl/nixpkgs-purerl.git";
       ref = "master";
-      rev = "e9c2b752f236f604cb2b5f1e9f3aab84a1f7d5d6";
+      rev = "16582722c40f4c1a65c15f23e5f2438c6905981f";
     };
 
   purerlSupport =
     builtins.fetchGit {
       name = "purerl-support-packages";
       url = "https://github.com/id3as/nixpkgs-purerl-support.git";
-      rev = "a0111b102673afbf4e6ff5ea9fe1462694b92f4f";
+      rev = "52926a56da6a8c526c403d26feaf52cc5f87a5d0";
     };
 
 
@@ -40,12 +40,12 @@ mkShell {
 
     # Purescript - we use a specific version rather than
     # whatever the latest is exposed via nixpkgs
-    purerl-support.purescript-0-14-3
+    purerl-support.purescript-0-14-4
     purerl-support.spago-0-20-3
     # purerl-support.dhall-json-1-5-0
 
     # Purerl backend for purescript
-    purerl.purerl-0-0-11
+    purerl.purerl-0-0-12
 
     dhall
     dhall-json

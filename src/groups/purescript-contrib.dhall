@@ -122,4 +122,9 @@
   , repo = "https://github.com/id3as/purescript-formatters"
   , version = "v5.0.1-erl1"
   }
+, unsafe-reference =
+  { repo = "https://github.com/purerl/purescript-unsafe-reference.git"
+  , dependencies = [ "prelude" ]
+  , version = "464ee74d0c3ef50e7b661c13399697431f4b6251"
+  }
 }

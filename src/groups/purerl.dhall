@@ -22,7 +22,7 @@
 , erl-process =
   { dependencies = [ "prelude", "effect", "either", "foreign" ]
   , repo = "https://github.com/purerl/purescript-erl-process.git"
-  , version = "v3.1.0"
+  , version = "ae060062c030ca5c71b790ad0f4b18c783a02154"
   }
 , erl-maps =
   { dependencies =
@@ -44,5 +44,36 @@
   { dependencies = [ "erl-lists" ]
   , repo = "https://github.com/purerl/purescript-erl-lager.git"
   , version = "v0.0.1"
+  }
+, erl-cowboy =
+  { dependencies =
+    [ "effect"
+    , "either"
+    , "erl-atom"
+    , "erl-binary"
+    , "erl-kernel"
+    , "erl-lists"
+    , "erl-maps"
+    , "erl-modules"
+    , "erl-ranch"
+    , "erl-ssl"
+    , "erl-tuples"
+    , "foreign"
+    , "functions"
+    , "maybe"
+    , "prelude"
+    , "record"
+    , "transformers"
+    , "tuples"
+    , "unsafe-coerce"
+    ]
+  , repo = "https://github.com/purerl/purescript-erl-cowboy"
+  , version = "f1e3c71405f6b6d2f38086eb7ece8e197f5f8bd2"
+  }
+, erl-jsone =
+  { dependencies =
+    [ "arrays", "integers", "assert", "either", "erl-lists", "erl-tuples" ]
+  , repo = "https://github.com/purerl/purescript-erl-jsone"
+  , version = "v0.4.0"
   }
 }
