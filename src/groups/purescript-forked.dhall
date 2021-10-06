@@ -93,7 +93,7 @@
     , "tuples"
     ]
   , repo = "https://github.com/purerl/purescript-foldable-traversable.git"
-  , version = "v5.0.0-erl1"
+  , version = "v5.0.1-erl1"
   }
 , foreign =
   { dependencies =
@@ -108,7 +108,8 @@
     , "transformers"
     ]
   , repo = "https://github.com/purerl/purescript-foreign.git"
-  , version = "v6.0.0-erl1"
+  -- test error on some regex thing
+  , version = "91f2e6c9950db6bcab673b45f6ebd89305e97728"
   }
 , functions =
   { dependencies = [ "prelude" ]
@@ -150,7 +151,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purerl/purescript-ordered-collections.git"
-  , version = "v2.0.0-erl1"
+  , version = "v2.0.2-erl1"
   }
 , partial =
   { dependencies = [] : List Text
@@ -160,7 +161,7 @@
 , prelude =
   { dependencies = [] : List Text
   , repo = "https://github.com/purerl/purescript-prelude.git"
-  , version = "v5.0.0-erl1"
+  , version = "v5.0.1-erl1"
   }
 , quickcheck =
   { dependencies =
@@ -207,7 +208,7 @@
 , refs =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purerl/purescript-refs.git"
-  , version = "v5.0.0-erl1"
+  , version = "v5.0.0-erl2"
   }
 , strings =
   { dependencies =
@@ -243,7 +244,7 @@
     , "refs"
     ]
   , repo = "https://github.com/purerl/purescript-tailrec.git"
-  , version = "v5.0.0-erl1"
+  , version = "v5.0.1-erl1"
   }
 , unfoldable =
   { dependencies =

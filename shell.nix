@@ -10,7 +10,7 @@ let
     builtins.fetchGit {
       url = "https://github.com/purerl/nixpkgs-purerl.git";
       ref = "master";
-      rev = "16582722c40f4c1a65c15f23e5f2438c6905981f";
+      rev = "b6d76d18bf4ceade77d1e0c860fc9d9129a44331";
     };
 
   purerlSupport =
@@ -45,7 +45,7 @@ mkShell {
     # purerl-support.dhall-json-1-5-0
 
     # Purerl backend for purescript
-    purerl.purerl-0-0-12
+    purerl.purerl-0-0-13
 
     dhall
     dhall-json
