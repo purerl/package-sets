@@ -9,9 +9,10 @@
     , "variant"
     , "erl-lists"
     , "erl-maps"
+    , "erl-kernel"
     ]
   , repo = "https://github.com/purerl/purescript-simple-json.git"
-  , version = "v7.0.0-erl3"
+  , version = "baad5dd0d613df6fb2f054fd241d46e11a92e181"
   }
 , expect-inferred =
   { dependencies = [ "prelude", "typelevel-prelude" ]

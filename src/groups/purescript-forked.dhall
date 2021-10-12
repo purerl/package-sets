@@ -108,7 +108,6 @@
     , "transformers"
     ]
   , repo = "https://github.com/purerl/purescript-foreign.git"
-  -- test error on some regex thing
   , version = "91f2e6c9950db6bcab673b45f6ebd89305e97728"
   }
 , functions =

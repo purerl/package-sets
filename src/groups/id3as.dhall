@@ -56,7 +56,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/id3as/purescript-erl-untagged-union.git"
-  , version = "ccae7cf7ee8ca5a5d599a4a7a7a068915cf098e5"
+  , version = "bd0bf61697dd615ecfae2ecdd4c68a37fc9eb936"
   }
 , erl-kernel =
   { dependencies =
@@ -67,6 +67,7 @@
     , "erl-atom"
     , "erl-binary"
     , "erl-lists"
+    , "erl-maps"
     , "erl-process"
     , "erl-tuples"
     , "erl-untagged-union"
@@ -83,7 +84,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/id3as/purescript-erl-kernel.git"
-  , version = "4b456ba6a7d2f5692b3c6d2cb207bcfcdedf2f81"
+  , version = "4ed7bd701686d681b6187cbc8276ae7a4e382e6f"
   }
 , erl-otp-types =
   { dependencies =
@@ -95,7 +96,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/id3as/purescript-erl-otp-types.git"
-  , version = "6470bc379447c406456e8ef1e6a79c80e3c5e8d1"
+  , version = "31a3d7c1581247679b3bc11012bb3a59fad9f9b9"
   }
 , erl-ssl =
   { dependencies =
@@ -119,7 +120,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/id3as/purescript-erl-ssl.git"
-  , version = "2bd94ce343448406e579425e1b4140a6b6dd7de0"
+  , version = "72a352ca24f7eab5a17db545940c0a070e250c73"
   }
 , erl-ranch =
   { dependencies =
@@ -143,7 +144,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/id3as/purescript-erl-ranch.git"
-  , version = "eef3e92ff5760c5fefada3a0c752a7d8fedde7ba"
+  , version = "1eda110f273339e19fc7e8d5dc6f738b0cbf547a"
   }
 , erl-gun =
   { dependencies =
@@ -169,7 +170,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/id3as/purescript-erl-gun.git"
-  , version = "c25358f9bae80b9a2512a46f91f51438a7f621fc"
+  , version = "0e5f17c94de8f993909244eb2795a49d85e9af72"
   }
 , erl-stetson =
   { repo = "https://github.com/id3as/purescript-erl-stetson.git"
@@ -187,7 +188,7 @@
     , "transformers"
     , "routing-duplex"
     ]
-  , version = "27a7b2d7cde837c9208f76a78db45e3bd8ec5361"
+  , version = "49aa3606d7c31348e2bf5495cc746c67715c2502"
   }
 , erl-pinto =
   { repo = "https://github.com/id3as/purescript-erl-pinto.git"

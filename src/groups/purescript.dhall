@@ -115,7 +115,7 @@
     , "ordered-collections"
     ]
   , repo = "https://github.com/purescript/purescript-filterable.git"
-  , version = "v4.0.1"
+  , version = "v3.0.1"
   }
 , foldable-traversable =
   { dependencies =
