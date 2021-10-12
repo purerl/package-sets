@@ -125,6 +125,6 @@
 , unsafe-reference =
   { repo = "https://github.com/purerl/purescript-unsafe-reference.git"
   , dependencies = [ "prelude" ]
-  , version = "464ee74d0c3ef50e7b661c13399697431f4b6251"
+  , version = "v4.0.0-erl1"
   }
 }

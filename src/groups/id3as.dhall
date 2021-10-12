@@ -17,7 +17,7 @@
     , "psci-support"
     ]
   , repo = "https://github.com/id3as/purescript-erl-test-eunit.git"
-  , version = "1704c063e20f0d1a9bd723ffdf18c00700203569"
+  , version = "v0.0.4"
   }
 , erl-queue =
   { dependencies =
@@ -35,12 +35,12 @@
     , "unfoldable"
     ]
   , repo = "https://github.com/id3as/purescript-erl-queue.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , erl-simplebus =
   { dependencies = [ "effect", "erl-process", "maybe", "newtype", "prelude" ]
   , repo = "https://github.com/id3as/purescript-erl-simplebus.git"
-  , version = "b5fcf28b4e193ba3eae5e47a0ac6c55320ed7885"
+  , version = "v0.0.3"
   }
 , erl-untagged-union =
   { dependencies =
@@ -56,7 +56,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/id3as/purescript-erl-untagged-union.git"
-  , version = "bd0bf61697dd615ecfae2ecdd4c68a37fc9eb936"
+  , version = "v0.0.1"
   }
 , erl-kernel =
   { dependencies =
@@ -84,7 +84,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/id3as/purescript-erl-kernel.git"
-  , version = "4ed7bd701686d681b6187cbc8276ae7a4e382e6f"
+  , version = "v0.0.2"
   }
 , erl-otp-types =
   { dependencies =
@@ -96,7 +96,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/id3as/purescript-erl-otp-types.git"
-  , version = "31a3d7c1581247679b3bc11012bb3a59fad9f9b9"
+  , version = "v0.0.2"
   }
 , erl-ssl =
   { dependencies =
@@ -120,7 +120,7 @@
     , "unsafe-reference"
     ]
   , repo = "https://github.com/id3as/purescript-erl-ssl.git"
-  , version = "72a352ca24f7eab5a17db545940c0a070e250c73"
+  , version = "v0.0.2"
   }
 , erl-ranch =
   { dependencies =
@@ -144,7 +144,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/id3as/purescript-erl-ranch.git"
-  , version = "1eda110f273339e19fc7e8d5dc6f738b0cbf547a"
+  , version = "v0.0.2"
   }
 , erl-gun =
   { dependencies =
@@ -170,7 +170,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/id3as/purescript-erl-gun.git"
-  , version = "0e5f17c94de8f993909244eb2795a49d85e9af72"
+  , version = "v0.0.1"
   }
 , erl-stetson =
   { repo = "https://github.com/id3as/purescript-erl-stetson.git"
@@ -188,7 +188,7 @@
     , "transformers"
     , "routing-duplex"
     ]
-  , version = "49aa3606d7c31348e2bf5495cc746c67715c2502"
+  , version = "v0.12.0"
   }
 , erl-pinto =
   { repo = "https://github.com/id3as/purescript-erl-pinto.git"
@@ -202,6 +202,6 @@
     , "erl-modules"
     , "foreign"
     ]
-  , version = "9472580fc7481db827cb1b3c3eda1e046edd6d76"
+  , version = "v0.1.0"
   }
 }

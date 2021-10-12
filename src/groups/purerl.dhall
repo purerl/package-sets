@@ -17,13 +17,13 @@
 , erl-binary =
   { dependencies = [ "prelude", "maybe", "erl-lists" ]
   , repo = "https://github.com/purerl/purescript-erl-binary.git"
-  , version = "0d91ea7615eb482bc4c31eb87722dd2f032d56b6"
+  , version = "v0.6.0"
   }
 , erl-process =
   { dependencies =
     [ "datetime", "effect", "either", "foreign", "integers", "prelude" ]
   , repo = "https://github.com/purerl/purescript-erl-process.git"
-  , version = "27299ea245abd37dd1acb190c5c593c39055afa8"
+  , version = "v3.2.0"
   }
 , erl-maps =
   { dependencies =
@@ -39,7 +39,7 @@
 , erl-file =
   { dependencies = [ "erl-atom", "erl-binary", "prelude" ]
   , repo = "https://github.com/purerl/purescript-erl-file.git"
-  , version = "da82acc9937a753f8f2247b5e58130f778a7ad7b"
+  , version = "v0.0.3"
   }
 , erl-lager =
   { dependencies = [ "erl-lists" ]
@@ -69,7 +69,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purerl/purescript-erl-cowboy"
-  , version = "f1e3c71405f6b6d2f38086eb7ece8e197f5f8bd2"
+  , version = "v0.11.0"
   }
 , erl-jsone =
   { dependencies =
