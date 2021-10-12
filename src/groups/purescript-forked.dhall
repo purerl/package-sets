@@ -108,7 +108,7 @@
     , "transformers"
     ]
   , repo = "https://github.com/purerl/purescript-foreign.git"
-  , version = "91f2e6c9950db6bcab673b45f6ebd89305e97728"
+  , version = "v6.0.1-erl1"
   }
 , functions =
   { dependencies = [ "prelude" ]
