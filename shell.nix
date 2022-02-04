@@ -10,14 +10,14 @@ let
     builtins.fetchGit {
       url = "https://github.com/purerl/nixpkgs-purerl.git";
       ref = "master";
-      rev = "b6d76d18bf4ceade77d1e0c860fc9d9129a44331";
+      rev = "0ff4c54219fe60c787334051f3303bdc8ba63e9d";
     };
 
   purerlSupport =
     builtins.fetchGit {
       name = "purerl-support-packages";
       url = "https://github.com/id3as/nixpkgs-purerl-support.git";
-      rev = "52926a56da6a8c526c403d26feaf52cc5f87a5d0";
+      rev = "f86be701bf1828c75d81b24428907a6ac9d7dad9";
     };
 
 
@@ -29,26 +29,21 @@ let
       ];
     };
 
-  package-set-pursuit = nixpkgs.callPackage ./packageSetPursuit.nix {};
-
 in
 
 with nixpkgs;
 
 mkShell {
   buildInputs = with pkgs; [
-
     # Purescript - we use a specific version rather than
     # whatever the latest is exposed via nixpkgs
-    purerl-support.purescript-0-14-4
+    purerl-support.purescript-0-14-5
     purerl-support.spago-0-20-3
-    # purerl-support.dhall-json-1-5-0
 
     # Purerl backend for purescript
-    purerl.purerl-0-0-13
+    purerl.purerl-0-0-14
 
     dhall
     dhall-json
-    package-set-pursuit
   ];
 }
