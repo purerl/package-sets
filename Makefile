@@ -9,8 +9,8 @@ ci: generate
 	# TODO spago verify & backend
 	# cd src && spago verify-set
 
-pursuit: generate
-	package-set-pursuit
+docs: generate
+	spago -x allPackages.dhall docs
 
 format:
 	@nix-shell --run 'find src/ -iname "*.dhall" -exec dhall format --inplace {} \;'
