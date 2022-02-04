@@ -525,6 +525,21 @@
     "repo": "https://github.com/id3as/purescript-erl-test-eunit.git",
     "version": "v0.0.4"
   },
+  "erl-test-eunit-discovery": {
+    "dependencies": [
+      "effect",
+      "erl-lists",
+      "erl-modules",
+      "erl-test-eunit",
+      "filterable",
+      "foldable-traversable",
+      "maybe",
+      "free",
+      "prelude"
+    ],
+    "repo": "https://github.com/id3as/purescript-erl-test-eunit-discovery.git",
+    "version": "d0b6d9f5bcab13f79c3941c64e52ee86f7cd4e2b"
+  },
   "erl-tuples": {
     "dependencies": [
       "unfoldable",

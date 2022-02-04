@@ -226,4 +226,19 @@
   , repo = "https://github.com/id3as/purescript-erl-opentelemetry.git"
   , version = "v0.0.1"
   }
+, erl-test-eunit-discovery =
+  { repo = "https://github.com/id3as/purescript-erl-test-eunit-discovery.git"
+  , dependencies =
+    [ "effect"
+    , "erl-lists"
+    , "erl-modules"
+    , "erl-test-eunit"
+    , "filterable"
+    , "foldable-traversable"
+    , "maybe"
+    , "free"
+    , "prelude"
+    ]
+  , version = "d0b6d9f5bcab13f79c3941c64e52ee86f7cd4e2b"
+  }
 }
