@@ -12,7 +12,7 @@
     , "erl-kernel"
     ]
   , repo = "https://github.com/purerl/purescript-simple-json.git"
-  , version = "v7.0.0-erl4"
+  , version = "v7.0.0-erl5"
   }
 , expect-inferred =
   { dependencies = [ "prelude", "typelevel-prelude" ]
