@@ -1,7 +1,7 @@
 { erl-logger =
   { dependencies = [ "prelude", "erl-atom", "erl-lists", "record" ]
   , repo = "https://github.com/id3as/purescript-erl-logger.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , erl-test-eunit =
   { dependencies =
@@ -54,9 +54,10 @@
     , "partial"
     , "prelude"
     , "unsafe-coerce"
+    , "erl-process"
     ]
   , repo = "https://github.com/id3as/purescript-erl-untagged-union.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , erl-kernel =
   { dependencies =
@@ -84,7 +85,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/id3as/purescript-erl-kernel.git"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 , erl-otp-types =
   { dependencies =
@@ -170,7 +171,7 @@
     , "typelevel-prelude"
     ]
   , repo = "https://github.com/id3as/purescript-erl-gun.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , erl-stetson =
   { repo = "https://github.com/id3as/purescript-erl-stetson.git"
@@ -188,7 +189,7 @@
     , "transformers"
     , "routing-duplex"
     ]
-  , version = "v0.12.0"
+  , version = "v0.13.0"
   }
 , erl-pinto =
   { repo = "https://github.com/id3as/purescript-erl-pinto.git"
@@ -202,6 +203,27 @@
     , "erl-modules"
     , "foreign"
     ]
+  , version = "v0.2.0"
+  }
+, erl-nativerefs =
+  { repo = "https://github.com/id3as/purescript-erl-nativerefs.git"
+  , dependencies = [ "prelude", "effect", "erl-tuples" ]
   , version = "v0.1.0"
+  }
+, erl-opentelemetry =
+  { dependencies =
+    [ "effect"
+    , "erl-atom"
+    , "erl-lists"
+    , "erl-maps"
+    , "erl-tuples"
+    , "erl-untagged-union"
+    , "maybe"
+    , "prelude"
+    , "tuples"
+    , "unsafe-reference"
+    ]
+  , repo = "https://github.com/id3as/purescript-erl-opentelemetry.git"
+  , version = "v0.0.1"
   }
 }

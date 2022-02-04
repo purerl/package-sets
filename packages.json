@@ -116,6 +116,25 @@
     "repo": "https://github.com/purerl/purescript-datetime.git",
     "version": "v5.0.2-erl1"
   },
+  "datetime-parsing": {
+    "dependencies": [
+      "arrays",
+      "datetime",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "integers",
+      "lists",
+      "maybe",
+      "numbers",
+      "parsing",
+      "prelude",
+      "psci-support",
+      "strings"
+    ],
+    "repo": "https://github.com/flounders/purescript-datetime-parsing",
+    "version": "10c0a9aecc60a2a5e8cff35bebe45be4dacaa7f8"
+  },
   "debug": {
     "dependencies": [
       "prelude"
@@ -242,7 +261,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/id3as/purescript-erl-gun.git",
-    "version": "v0.0.1"
+    "version": "v0.0.2"
   },
   "erl-jsone": {
     "dependencies": [
@@ -282,7 +301,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/id3as/purescript-erl-kernel.git",
-    "version": "v0.0.2"
+    "version": "v0.0.3"
   },
   "erl-lager": {
     "dependencies": [
@@ -310,7 +329,7 @@
       "record"
     ],
     "repo": "https://github.com/id3as/purescript-erl-logger.git",
-    "version": "v0.0.2"
+    "version": "v0.0.3"
   },
   "erl-maps": {
     "dependencies": [
@@ -331,6 +350,31 @@
     ],
     "repo": "https://github.com/purerl/purescript-erl-modules.git",
     "version": "v0.1.6"
+  },
+  "erl-nativerefs": {
+    "dependencies": [
+      "prelude",
+      "effect",
+      "erl-tuples"
+    ],
+    "repo": "https://github.com/id3as/purescript-erl-nativerefs.git",
+    "version": "v0.1.0"
+  },
+  "erl-opentelemetry": {
+    "dependencies": [
+      "effect",
+      "erl-atom",
+      "erl-lists",
+      "erl-maps",
+      "erl-tuples",
+      "erl-untagged-union",
+      "maybe",
+      "prelude",
+      "tuples",
+      "unsafe-reference"
+    ],
+    "repo": "https://github.com/id3as/purescript-erl-opentelemetry.git",
+    "version": "v0.0.1"
   },
   "erl-otp-types": {
     "dependencies": [
@@ -356,7 +400,7 @@
       "foreign"
     ],
     "repo": "https://github.com/id3as/purescript-erl-pinto.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "erl-process": {
     "dependencies": [
@@ -368,7 +412,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purerl/purescript-erl-process.git",
-    "version": "v3.2.0"
+    "version": "v3.3.0"
   },
   "erl-queue": {
     "dependencies": [
@@ -463,7 +507,7 @@
       "routing-duplex"
     ],
     "repo": "https://github.com/id3as/purescript-erl-stetson.git",
-    "version": "v0.12.0"
+    "version": "v0.13.0"
   },
   "erl-test-eunit": {
     "dependencies": [
@@ -500,10 +544,11 @@
       "maybe",
       "partial",
       "prelude",
-      "unsafe-coerce"
+      "unsafe-coerce",
+      "erl-process"
     ],
     "repo": "https://github.com/id3as/purescript-erl-untagged-union.git",
-    "version": "v0.0.1"
+    "version": "v0.0.2"
   },
   "exceptions": {
     "dependencies": [
@@ -1007,6 +1052,26 @@
     "repo": "https://github.com/purerl/purescript-quickcheck.git",
     "version": "v7.1.0-erl1"
   },
+  "quickcheck-laws": {
+    "dependencies": [
+      "arrays",
+      "console",
+      "control",
+      "effect",
+      "either",
+      "enums",
+      "foldable-traversable",
+      "identity",
+      "lists",
+      "maybe",
+      "newtype",
+      "prelude",
+      "quickcheck",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-quickcheck-laws",
+    "version": "v6.0.1"
+  },
   "random": {
     "dependencies": [
       "effect",
@@ -1015,6 +1080,14 @@
     ],
     "repo": "https://github.com/purerl/purescript-random.git",
     "version": "v5.0.0-erl1"
+  },
+  "rationals": {
+    "dependencies": [
+      "prelude",
+      "integers"
+    ],
+    "repo": "https://github.com/anttih/purescript-rationals.git",
+    "version": "c883c972513380ae161d816ed42108acfe8cc8f6"
   },
   "record": {
     "dependencies": [
@@ -1077,6 +1150,22 @@
     "repo": "https://github.com/purescript/purescript-semirings.git",
     "version": "v6.0.0"
   },
+  "sequences": {
+    "dependencies": [
+      "prelude",
+      "unsafe-coerce",
+      "partial",
+      "unfoldable",
+      "lazy",
+      "arrays",
+      "profunctor",
+      "maybe",
+      "tuples",
+      "newtype"
+    ],
+    "repo": "https://github.com/hdgarrood/purescript-sequences.git",
+    "version": "v3.0.2"
+  },
   "simple-json": {
     "dependencies": [
       "exceptions",
@@ -1091,7 +1180,7 @@
       "erl-kernel"
     ],
     "repo": "https://github.com/purerl/purescript-simple-json.git",
-    "version": "v7.0.0-erl5"
+    "version": "baad5dd0d613df6fb2f054fd241d46e11a92e181"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -1136,6 +1225,18 @@
     ],
     "repo": "https://github.com/purerl/purescript-tailrec.git",
     "version": "v5.0.1-erl1"
+  },
+  "these": {
+    "dependencies": [
+      "arrays",
+      "gen",
+      "lists",
+      "quickcheck",
+      "quickcheck-laws",
+      "tuples"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-these.git",
+    "version": "v5.0.0"
   },
   "transformers": {
     "dependencies": [
@@ -1219,6 +1320,22 @@
     ],
     "repo": "https://github.com/purerl/purescript-unsafe-reference.git",
     "version": "v4.0.0-erl1"
+  },
+  "uri": {
+    "dependencies": [
+      "arrays",
+      "integers",
+      "js-uri",
+      "numbers",
+      "parsing",
+      "prelude",
+      "profunctor-lenses",
+      "these",
+      "transformers",
+      "unfoldable"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-uri",
+    "version": "v8.0.1"
   },
   "validation": {
     "dependencies": [

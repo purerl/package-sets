@@ -127,4 +127,46 @@
   , dependencies = [ "prelude" ]
   , version = "v4.0.0-erl1"
   }
+, uri =
+  { repo = "https://github.com/purescript-contrib/purescript-uri"
+  , version = "v8.0.1"
+  , dependencies =
+    [ "arrays"
+    , "integers"
+    , "js-uri"
+    , "numbers"
+    , "parsing"
+    , "prelude"
+    , "profunctor-lenses"
+    , "these"
+    , "transformers"
+    , "unfoldable"
+    ]
+  }
+, these =
+  { dependencies =
+    [ "arrays", "gen", "lists", "quickcheck", "quickcheck-laws", "tuples" ]
+  , repo = "https://github.com/purescript-contrib/purescript-these.git"
+  , version = "v5.0.0"
+  }
+, quickcheck-laws =
+  { repo = "https://github.com/purescript-contrib/purescript-quickcheck-laws"
+  , version = "v6.0.1"
+  , dependencies =
+    [ "arrays"
+    , "console"
+    , "control"
+    , "effect"
+    , "either"
+    , "enums"
+    , "foldable-traversable"
+    , "identity"
+    , "lists"
+    , "maybe"
+    , "newtype"
+    , "prelude"
+    , "quickcheck"
+    , "tuples"
+    ]
+  }
 }

@@ -23,7 +23,7 @@
   { dependencies =
     [ "datetime", "effect", "either", "foreign", "integers", "prelude" ]
   , repo = "https://github.com/purerl/purescript-erl-process.git"
-  , version = "v3.2.0"
+  , version = "v3.3.0"
   }
 , erl-maps =
   { dependencies =
