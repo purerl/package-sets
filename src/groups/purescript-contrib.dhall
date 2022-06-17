@@ -37,7 +37,7 @@
     , "erl-maps"
     ]
   , repo = "https://github.com/purerl/purescript-profunctor-lenses.git"
-  , version = "v7.0.0-erl1"
+  , version = "v8.0.0-erl1"
   }
 , unicode =
   { dependencies =
